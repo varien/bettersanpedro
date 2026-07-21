@@ -87,7 +87,7 @@ export const mainNavigation: NavigationItem[] = [
     href: '/statistics',
     children: [
       {
-        label: 'Municipal Profile',
+        label: 'City Profile',
         labelKey: 'navbar.profile',
         href: '/statistics',
       },
@@ -160,7 +160,7 @@ export const footerNavigation = {
           href: '/government/departments',
         },
         {
-        label: 'Legislative (City Council)',
+          label: 'Legislative (City Council)',
           labelKey: 'navbar.legislative',
           href: '/government/legislative',
         },

@@ -2,42 +2,14 @@
   "site_name": "BetterSanPedro.ph",
   "site_description": "A community-run civic portal for San Pedro, Laguna",
   "hero": {
-    "title": "Welcome to BetterSanPedro.ph",
     "subtitle": "A community-run civic portal to find information and services of San Pedro, Laguna.",
     "welcome": "WELCOME TO",
     "browseServices": "Browse Services",
     "contactUs": "Contact Us",
     "findService": "Search Services",
     "searchPlaceholder": "Search for a service...",
-    "popular": "Popular Services",
-    "nationalId": "National ID",
-    "birthCertificate": "Birth Certificate",
-    "businessRegistration": "Business Registration"
-  },
-  "hotlines": {
-    "police": "Municipal Police Station",
-    "hospital": "Municipal Health Office",
-    "fire": "Municipal Fire Station",
-    "mdrrmo": "MDRRMO"
-  },
-  "emergencyHotlines": {
-    "title": "San Pedro Emergency Hotlines",
-    "mdrrmo": {
-      "name": "MDRRMO",
-      "numbers": ["0961-992-1998", "0952-652-9265", "046-433-9220"]
-    },
-    "fire": {
-      "name": "Municipal Fire Station",
-      "numbers": ["046-415-1217", "0915-603-4245"]
-    },
-    "police": {
-      "name": "Municipal Police Station",
-      "numbers": ["0949-184-9145", "0915-913-7693", "0998-598-5603"]
-    },
-    "health": {
-      "name": "Municipal Health Office",
-      "numbers": ["046-840-1705", "0977-766-6707"]
-    }
+    "searchAction": "Search",
+    "popular": "Popular Services"
   },
   "services": {
     "title": "Services & Information",
@@ -46,42 +18,90 @@
     "viewAll": "View All Services",
     "viewAllCategory": "View All",
     "categories": {
-      "health-services": { "name": "Health Services" },
-      "education": { "name": "Education" },
-      "business": { "name": "Business and Livelihood" },
-      "social-welfare": { "name": "Social Welfare" },
-      "agriculture-fisheries": { "name": "Agriculture & Fisheries" },
-      "infrastructure-public-works": {
-        "name": "Infrastructure & Public Works"
+      "health-services": {
+        "name": "Health Services",
+        "description": "Where to go for free check-ups, vaccines, and medicines, which hospitals are available, and details on health programs in your area."
       },
-      "garbage-waste-disposal": { "name": "Garbage and Waste Disposal" },
-      "environment": { "name": "Environment" },
-      "housing-land-use": { "name": "Housing & Land Use" },
-      "disaster-preparedness": { "name": "Disaster Preparedness" }
+      "education": {
+        "name": "Education",
+        "description": "Where to enroll kids in daycare or preschool, how to apply for scholarships, and what education support your LGU offers."
+      },
+      "business": {
+        "name": "Business and Livelihood",
+        "description": "What permits and clearances you need, where to pay taxes or renew permits, and what livelihood or trade opportunities are offered."
+      },
+      "social-welfare": {
+        "name": "Social Welfare",
+        "description": "What assistance is available for seniors, PWDs, solo parents, and indigent families, plus details on relief goods, and livelihood aid."
+      },
+      "agriculture-fisheries": {
+        "name": "Agriculture & Fisheries",
+        "description": "What farm or fishing support is available, including seeds, fertilizers, veterinary care, and where to join training or borrow equipment."
+      },
+      "infrastructure-public-works": {
+        "name": "Infrastructure & Public Works",
+        "description": "How to report damaged roads or drainage, where to request water supply, and how to access public facilities and markets."
+      },
+      "garbage-waste-disposal": {
+        "name": "Garbage and Waste Disposal",
+        "description": "Garbage collection schedules, waste disposal guidelines, and how to properly dispose of different types of waste."
+      },
+      "environment": {
+        "name": "Environment",
+        "description": "Clean-up or tree planting activities, environmental protection rules, and conservation programs."
+      },
+      "housing-land-use": {
+        "name": "Housing & Land Use",
+        "description": "How to apply for housing projects, what zoning and building permits are needed, and where relocation sites are available."
+      },
+      "disaster-preparedness": {
+        "name": "Disaster Preparedness",
+        "description": "Disaster preparedness plans, emergency response information, and evacuation procedures."
+      }
     }
   },
   "governmentActivity": {
     "title": "Government Activity",
-    "description": "Stay updated with the latest government activities and announcements."
+    "description": "Stay updated with the latest government activities and announcements.",
+    "categories": {
+      "legislative": {
+        "name": "Legislative",
+        "description": "The Sangguniang Panlungsod (City Council) of San Pedro - the legislative body responsible for passing ordinances and resolutions for the benefit of the city."
+      },
+      "departments": {
+        "name": "Departments & Offices",
+        "description": "Explore local government departments, agencies, and offices with their mandates, services, and contact details."
+      },
+      "news": {
+        "name": "News & Announcements",
+        "description": "Stay informed with the latest local government news, announcements, and policy updates from the City of San Pedro."
+      },
+      "guides-and-regulations": {
+        "name": "Guides & Regulations",
+        "description": "Access guidelines, rules, regulations, and step-by-step instructions for local government processes in San Pedro."
+      },
+      "reports-and-statistics": {
+        "name": "Reports & Statistics",
+        "description": "Access local government reports, statistical data, and performance metrics for the City of San Pedro."
+      },
+      "public-consultations": {
+        "name": "Public Consultations",
+        "description": "Participate in public consultations and provide feedback on local government decisions and ordinances."
+      },
+      "transparency-documents": {
+        "name": "Transparency Documents",
+        "description": "Access Freedom of Information releases and transparency documents for local government accountability in San Pedro."
+      }
+    }
   },
   "stats": {
     "title": "San Pedro at a Glance",
     "viewProfile": "View City Profile ->",
-    "population": {
-      "label": "Residents",
-      "desc": "2024 POPCEN population"
-    },
-    "barangays": {
-      "label": "Barangays",
-      "desc": "Administrative villages"
-    },
+    "population": { "label": "Residents", "desc": "2024 POPCEN population" },
+    "barangays": { "label": "Barangays", "desc": "Administrative villages" },
     "classification": {
       "label": "1st Class Component City",
       "desc": "Income classification"
-    },
-    "area": {
-      "label": "km²",
-      "desc": "Official data year"
     }
   },
   "weatherMap": {
@@ -96,58 +116,20 @@
     "defaultCondition": "Loading weather...",
     "wind": "km/h wind",
     "climate": "Tropical climate",
-    "elevation": "299.5m elevation",
     "loading": "Fetching live weather data...",
     "mapTitle": "Map of San Pedro, Laguna"
   },
   "history": {
-    "title": "History of Indang",
-    "charteredYear": "Don Severino Agricultural College Founded",
-    "charteredDesc": "Cavite State University (CvSU), the largest state university in Cavite, has its main campus in Indang — a cornerstone of the municipality's identity as an agricultural and educational hub.",
-    "elevationLabel": "299.5m Elevation",
-    "elevationDesc": "Indang sits at 299.5 meters above sea level at coordinates 14°12'N, 120°53'E, giving it a cooler climate and fertile highlands ideal for diverse agriculture.",
-    "events": {
-      "precolonial": {
-        "year": "Pre-colonial Era",
-        "title": "Early Settlements",
-        "text": "The area now known as Indang was home to early Tagalog communities engaged in farming and trade. Its fertile highlands made it a natural site for permanent settlement."
-      },
-      "spanish": {
-        "year": "Spanish Period",
-        "title": "Parish Establishment",
-        "text": "Under Spanish rule, Indang was organized as a parish. The Church of Saint Gregory the Great became the spiritual and civic center of the community."
-      },
-      "revolution": {
-        "year": "1896–1898",
-        "title": "Battle of Indang",
-        "text": "Indang was an active theater during the Philippine Revolution. The Battle of Indang in 1897 was a significant engagement between Katipunan forces and Spanish troops in Cavite."
-      },
-      "american": {
-        "year": "1900s",
-        "title": "Municipal Organization",
-        "text": "Under American colonial governance, Indang was formally organized as a municipality within the province of Cavite, establishing its local government structure."
-      },
-      "cvsu": {
-        "year": "1906",
-        "title": "Don Severino Agricultural College",
-        "text": "Don Severino Agricultural College was established in 1906, later renamed Cavite State University (CvSU) — now the largest state university in Cavite, with its main campus in Indang."
-      },
-      "republic": {
-        "year": "Post-1946",
-        "title": "Growth & Development",
-        "text": "After Philippine independence, Indang developed as an agricultural and educational center. Its 36 barangays across 74.90 km² grew steadily alongside the expanding CvSU community."
-      },
-      "present": {
-        "year": "Present Day",
-        "title": "Modern Indang",
-        "text": "Home to 68,699 residents (2020 census), Indang is a 3rd class municipality known for agriculture, education, and a growing tourism sector."
-      }
-    }
+    "title": "History of San Pedro",
+    "milestoneYear": "2013",
+    "milestoneTitle": "San Pedro becomes a city",
+    "milestoneText": "Republic Act No. 10420 was approved on March 27, 2013, chartering the former Municipality of San Pedro as a component city of Laguna.",
+    "researchNotice": "Additional historical claims are published only after primary or archival verification."
   },
   "leadership": {
-    "title": "Municipal Leadership",
-    "cityMayor": "Municipal Mayor",
-    "cityViceMayor": "Municipal Vice Mayor",
+    "title": "City Leadership",
+    "cityMayor": "City Mayor",
+    "cityViceMayor": "City Vice Mayor",
     "electedMayor": "Elected Mayor",
     "electedViceMayor": "Elected Vice Mayor",
     "viewAll": "View All Officials",
@@ -164,14 +146,27 @@
     "addressLine2": "City of San Pedro, Laguna",
     "viewAll": "View All Departments"
   },
-  "weather": {
-    "title": "Weather Updates"
-  },
-  "forex": {
-    "title": "Foreign Exchange Rates"
-  },
-  "news": {
-    "title": "Latest News & Updates"
+  "navbar": {
+    "government": "Government",
+    "services": "Services",
+    "home": "Home",
+    "statistics": "Statistics",
+    "transparency": "Transparency",
+    "contact": "Contact",
+    "tourism": "Tourism",
+    "departments": "Departments & Officials",
+    "legislative": "Legislative (City Council)",
+    "officials": "Local Officials Directory",
+    "fullDisclosure": "Full Disclosure Policy (FDP)",
+    "transparencyDocs": "Transparency Documents",
+    "reportsStats": "Reports & Statistics",
+    "budget": "Annual Budget",
+    "foi": "Freedom of Information (FOI)",
+    "profile": "City Profile",
+    "dtiProfile": "DTI CMCI Profile",
+    "barangayData": "Barangay Data",
+    "openData": "Open Data PH",
+    "emergencyHotlines": "Emergency Hotlines"
   },
   "footer": {
     "copyright": "© 2026 BetterSanPedro.ph · CC0 1.0 Universal",
@@ -196,40 +191,8 @@
     "quickLinks": "Quick Links",
     "resources": "Resources"
   },
-  "navbar": {
-    "government": "Government",
-    "services": "Services",
-    "hotlines": "Hotlines",
-    "holidays": "Holidays",
-    "home": "Home",
-    "statistics": "Statistics",
-    "legislative": "Legislative",
-    "transparency": "Transparency",
-    "contact": "Contact",
-    "tourism": "Tourism",
-    "departments": "Departments & Officials",
-    "officials": "Local Officials Directory",
-    "fullDisclosure": "Full Disclosure Policy (FDP)",
-    "transparencyDocs": "Transparency Documents",
-    "reportsStats": "Reports & Statistics",
-    "budget": "Annual Budget",
-    "foi": "Freedom of Information (FOI)",
-    "profile": "Municipal Profile",
-    "dtiProfile": "DTI CMCI Profile",
-    "barangayData": "Barangay Data",
-    "openData": "Open Data PH"
-  },
-  "joinUs": {
-    "stripTitle": "Join the #CivicTech Revolution",
-    "stripSubtitle": "Help build the future of the Philippines and governance through technology",
-    "joinNow": "Join Now",
-    "discord": "Discord",
-    "bannerTitle": "Join the #CivicTech Revolution",
-    "bannerSubtitle": "Help build the future of the Philippines and governance through technology.",
-    "bannerHighlight": "Volunteer-led. Open source. Community-driven.",
-    "joinMovement": "Join Our Movement",
-    "or": "or",
-    "joinDiscord": "Join Discord",
-    "features": "Infrastructure • Mentorship • Community • Office Space"
+  "emergencyHotlines": {
+    "title": "San Pedro Emergency Hotlines",
+    "verificationNotice": "Emergency numbers are published only after current city or agency verification."
   }
 }

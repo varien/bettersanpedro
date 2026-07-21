@@ -1,4 +1,4 @@
-import { ArrowRight, MapPin } from 'lucide-react';
+import { ArrowRight, ExternalLink, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useScrollReveal } from '../../hooks/useScrollReveal';
 
@@ -12,16 +12,33 @@ export default function TourismSection() {
           <div>
             <div className="mb-2 flex items-center gap-2 text-primary-700">
               <MapPin className="h-4 w-4" />
-              <span className="text-xs font-bold uppercase tracking-widest">Tourism</span>
+              <span className="text-xs font-bold uppercase tracking-widest">
+                Tourism
+              </span>
             </div>
-            <h2 className="text-2xl font-black text-gray-900">Discover San Pedro</h2>
+            <h2 className="text-2xl font-black text-gray-900">
+              Discover San Pedro
+            </h2>
             <p className="mt-2 max-w-2xl text-sm leading-relaxed text-gray-600">
-              The San Pedro tourism directory is being prepared. Places, events, and local recommendations will appear here after their sources are verified.
+              Start with official city tourism, culture, and arts references.
+              Private listings will be added after source and owner
+              verification.
             </p>
           </div>
-          <Link to="/tourism" className="inline-flex shrink-0 items-center justify-center gap-1.5 rounded-xl bg-primary-700 px-5 py-3 text-sm font-bold text-white transition-colors hover:bg-primary-800">
+          <Link
+            to="/tourism"
+            className="inline-flex shrink-0 items-center justify-center gap-1.5 rounded-xl bg-primary-700 px-5 py-3 text-sm font-bold text-white transition-colors hover:bg-primary-800"
+          >
             Explore Tourism <ArrowRight className="h-4 w-4" />
           </Link>
+          <a
+            href="https://cityofsanpedrolaguna.gov.ph/wp-content/uploads/2025/05/cc_tcao25.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex shrink-0 items-center justify-center gap-1.5 rounded-xl border border-primary-200 px-5 py-3 text-sm font-bold text-primary-700 transition-colors hover:bg-white"
+          >
+            TCAO Charter <ExternalLink className="h-4 w-4" />
+          </a>
         </div>
       </div>
     </section>

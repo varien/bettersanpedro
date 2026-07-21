@@ -123,7 +123,7 @@ const Navbar: React.FC = () => {
       clearInterval(timer);
       clearInterval(currencyTimer);
     };
-  }, []);
+  }, [CURRENCIES.length]);
 
   // ── Body scroll lock (BetterSolano pattern) ────────────────────
   const lockBodyScroll = useCallback(() => {

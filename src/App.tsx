@@ -15,7 +15,7 @@ const Statistics = lazy(() => import('./pages/Statistics'));
 const Legislative = lazy(() => import('./pages/Legislative'));
 const Transparency = lazy(() => import('./pages/Transparency'));
 const Tourism = lazy(() => import('./pages/Tourism'));
-const History = lazy(() => import('./pages/IndangHistory'));
+const History = lazy(() => import('./pages/SanPedroHistory'));
 const ExecutiveDirectory = lazy(() => import('./pages/ExecutiveDirectory'));
 const SangguniangBayan = lazy(() => import('./pages/SangguniangBayan'));
 const Sitemap = lazy(() => import('./pages/Sitemap'));

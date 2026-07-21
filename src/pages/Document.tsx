@@ -25,6 +25,10 @@ import {
 } from '../data/yamlLoader';
 import SEO from '../components/SEO';
 
+const CITY_URL = 'https://cityofsanpedrolaguna.gov.ph/';
+const CHARTER_URL =
+  'https://cityofsanpedrolaguna.gov.ph/wp-content/uploads/2025/05/San-Pedro-Citizens-Charter-2025-1st-EditionApr30_2025.pdf';
+
 interface DocumentProps {
   theme?: string;
   categoryType?: 'service' | 'government';
@@ -40,6 +44,7 @@ export default function Document({
   const [nestedIndex, setNestedIndex] = useState<CategoryIndex | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [sourceGuide, setSourceGuide] = useState(false);
   const { currentLanguage, t } = useTranslation();
   const isFil = currentLanguage === 'fil';
 
@@ -62,6 +67,7 @@ export default function Document({
       try {
         setLoading(true);
         setError(null);
+        setSourceGuide(false);
 
         const isGovernment = categoryType === 'government';
         const categories = isGovernment
@@ -115,6 +121,23 @@ export default function Document({
           return;
         }
 
+        if (categoryType === 'service') {
+          setSourceGuide(true);
+          setBreadcrumbs([
+            { label: isFil ? 'Tahanan' : 'Home', href: '/' },
+            { label: sectionLabel, href: sectionHref },
+            {
+              label: categoryName ?? category,
+              href: `${sectionHref}/${category}`,
+            },
+            {
+              label: isFil ? 'Opisyal na sanggunian' : 'Official source guide',
+              href: `${sectionHref}/${category}/${documentSlug}`,
+            },
+          ]);
+          return;
+        }
+
         const content = await loadMarkdownContent(
           documentSlug,
           category,
@@ -122,10 +145,6 @@ export default function Document({
           currentLanguage
         );
         setMarkdownContent(content);
-        const contentIsLegacy = /\b(indang|cavite|municipality of indang|rural health unit)\b/i.test(
-          `${content.title || ''} ${content.description || ''} ${content.content}`
-        );
-
         setBreadcrumbs([
           { label: isFil ? 'Tahanan' : 'Home', href: '/' },
           { label: sectionLabel, href: sectionHref },
@@ -134,11 +153,7 @@ export default function Document({
             href: `${sectionHref}/${category}`,
           },
           {
-            label: contentIsLegacy
-              ? isFil
-                ? 'Sinusuri ang serbisyo'
-                : 'Service under review'
-              : content.title ?? documentSlug,
+            label: content.title ?? documentSlug,
             href: `${sectionHref}/${category}/${documentSlug}`,
           },
         ]);
@@ -156,7 +171,7 @@ export default function Document({
     };
 
     loadContent();
-  }, [documentSlug, category, categoryType, currentLanguage]);
+  }, [documentSlug, category, categoryType, currentLanguage, isFil, t]);
 
   if (loading) {
     return (
@@ -182,6 +197,54 @@ export default function Document({
           icon
         />
       </Section>
+    );
+  }
+
+  if (sourceGuide) {
+    const title = isFil
+      ? 'Opisyal na sanggunian ng serbisyo'
+      : 'Official service source guide';
+    return (
+      <>
+        <SEO
+          title={title}
+          description="Official San Pedro service sources."
+          keywords={`${documentSlug}, San Pedro services, Citizen's Charter`}
+        />
+        <Section className="p-3 mb-12">
+          <Breadcrumbs className="mb-8" items={breadcrumbs} />
+          <Card className="mb-8">
+            <CardHeader>
+              <Heading>{title}</Heading>
+              <Text className="mt-3 text-gray-600">
+                {isFil
+                  ? 'Ang pahinang ito ay nag-uugnay sa kasalukuyang opisyal na source. Suriin ang charter para sa eksaktong kinakailangan, bayarin, oras, at responsible office bago makipagtransaksyon.'
+                  : 'This page points to the current official source. Check the charter for exact requirements, fees, processing times, and responsible office before transacting.'}
+              </Text>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <a
+                  href={CHARTER_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center rounded-lg bg-primary-700 px-4 py-2 text-sm font-bold text-white hover:bg-primary-800"
+                >
+                  {isFil
+                    ? 'Buksan ang Citizen’s Charter 2025'
+                    : 'Open Citizen’s Charter 2025'}
+                </a>
+                <a
+                  href={CITY_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center rounded-lg border border-gray-200 px-4 py-2 text-sm font-bold text-gray-700 hover:bg-gray-50"
+                >
+                  {isFil ? 'Buksan ang city website' : 'Open city website'}
+                </a>
+              </div>
+            </CardHeader>
+          </Card>
+        </Section>
+      </>
     );
   }
 
@@ -296,34 +359,6 @@ export default function Document({
 
   if (!markdownContent) {
     return null;
-  }
-
-  const hasLegacyLocalContent = /\b(indang|cavite|municipality of indang|rural health unit)\b/i.test(
-    `${markdownContent.title || ''} ${markdownContent.description || ''} ${markdownContent.content}`
-  );
-
-  if (hasLegacyLocalContent) {
-    return (
-      <>
-        <SEO
-          title={isFil ? 'Sinusuri ang impormasyon ng serbisyo' : 'Service information under review'}
-          description="San Pedro service information is being verified before publication."
-        />
-        <Section className="p-3 mb-12">
-          <Breadcrumbs className="mb-8" items={breadcrumbs} />
-          <Banner
-            type="info"
-            title={isFil ? 'Sinusuri ang impormasyon ng serbisyo' : 'Service information under review'}
-            description={
-              isFil
-                ? 'Pinapatunayan muna namin ang mga kinakailangan, bayarin, proseso, at contact ng serbisyong ito para sa San Pedro bago ito ilathala.'
-                : 'We are verifying the requirements, fees, process, and contacts for this San Pedro service before publishing it.'
-            }
-            icon
-          />
-        </Section>
-      </>
-    );
   }
 
   return (

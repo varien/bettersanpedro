@@ -1,9 +1,5 @@
-import React, { useEffect } from 'react';
-import {
-  ExternalLink,
-  Box,
-  Heart,
-} from 'lucide-react';
+import React from 'react';
+import { ExternalLink, Box, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from '../../hooks/useTranslation';
 
@@ -71,16 +67,6 @@ const RESOURCE_LINKS = [
 const Footer: React.FC = () => {
   const { t } = useTranslation('common');
   const currentYear = new Date().getFullYear();
-
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://unpkg.com/website-carbon-badges@1/b.min.js';
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
 
   return (
     <footer className="bg-gray-900 text-white">
@@ -180,7 +166,10 @@ const Footer: React.FC = () => {
             <div
               className="inline-flex items-baseline gap-2 bg-green-900/40 border border-green-700/50 rounded-xl px-4 py-3 mb-5"
               role="status"
-              aria-label={t('footer.costTitle', 'Cost to the People of San Pedro')}
+              aria-label={t(
+                'footer.costTitle',
+                'Cost to the People of San Pedro'
+              )}
             >
               <span className="text-sm text-green-300 font-medium">
                 {t('footer.costTitle', 'Cost to the People of San Pedro')}
@@ -208,7 +197,14 @@ const Footer: React.FC = () => {
                 {t('footer.contribute', 'Contribute at GitHub')}
               </a>
             </div>
-            <div id="wcb" className="carbonbadge wcb-d mt-1" />
+            <a
+              href="https://websitecarbon.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-1 inline-flex text-xs text-gray-500 hover:text-gray-300"
+            >
+              Learn about website sustainability
+            </a>
           </div>
         </div>
 
