@@ -14,22 +14,22 @@ Baseline: `michaustriaqa/betterindang`, commit `05e12c5` (main)
 - Home: search, larger menu logo, San Pedro history, profile metrics, and source-backed tourism/health links reviewed.
 - Government: executive, legislative, department, statistics, and transparency surfaces reviewed in the prior migration pass.
 - Services: inherited Indang procedure Markdown removed; service detail routes now point to the San Pedro Citizen's Charter and city website until each local procedure is verified.
-- Tourism: official TCAO charter, Sampaguita Festival archive, and Cultural Mapping archive published; private listings remain intentionally omitted.
+- Tourism: 11 source-linked records now cover the Sampaguita Festival, heritage and faith, landmarks, recreation, sports, local life, and the official tourism office. Each item carries an Official source, Historical-archived, or Research lead-verify status; current hours, fees, schedules, and private contacts remain unasserted until verified.
 - Statistics: PSA 2024 population and the complete 27-barangay list published with source links.
 - History: RA 10420 is the cited legal milestone for cityhood; unsupported narrative has been removed.
 - Technical: local lint/build and production route checks are required before each release; the custom `.ph` domain still requires owner DNS verification.
 
 ## Route inventory
 
-| Route                              | Current state                                                             |
-| ---------------------------------- | ------------------------------------------------------------------------- |
-| `/`                                | San Pedro home, search, history, profile, and calls to action             |
-| `/services` and service details    | San Pedro categories with official-source guide for unverified procedures |
-| `/government`, `/legislative`      | Source-backed San Pedro directories and records                           |
-| `/statistics`                      | PSA population and complete 27-barangay list                              |
-| `/transparency`                    | City Charter, procurement, budget, DILG FDP, FOI, and COA links           |
-| `/tourism` and `/tourism/history`  | Official tourism/culture references and cited cityhood history            |
-| `/sitemap`, document routes, `404` | Shared technical surfaces checked after migration                         |
+| Route                              | Current state                                                                                      |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `/`                                | San Pedro home, search, history, profile, and calls to action                                      |
+| `/services` and service details    | San Pedro categories with official-source guide for unverified procedures                          |
+| `/government`, `/legislative`      | Source-backed San Pedro directories and records                                                    |
+| `/statistics`                      | PSA population and complete 27-barangay list                                                       |
+| `/transparency`                    | City Charter, procurement, budget, DILG FDP, FOI, and COA links                                    |
+| `/tourism` and `/tourism/history`  | Searchable tourism directory, festival spotlight, source/status labels, and cited cityhood history |
+| `/sitemap`, document routes, `404` | Shared technical surfaces checked after migration                                                  |
 
 ## External setup note
 

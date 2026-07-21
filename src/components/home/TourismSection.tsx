@@ -20,9 +20,9 @@ export default function TourismSection() {
               Discover San Pedro
             </h2>
             <p className="mt-2 max-w-2xl text-sm leading-relaxed text-gray-600">
-              Start with official city tourism, culture, and arts references.
-              Private listings will be added after source and owner
-              verification.
+              Explore San Pedro landmarks, the Sampaguita Festival, heritage,
+              recreation, and local culture. Every highlight includes a source
+              and a verification status.
             </p>
           </div>
           <Link

@@ -1,38 +1,220 @@
 {
   "meta": {
     "lastUpdated": "2026-07-21",
-    "source": "City Government of San Pedro official website and Citizen's Charter 2025",
-    "description": "Official tourism, culture, and arts references for San Pedro, Laguna.",
-    "instructions": "Add private or community listings only after verifying the current source, location, contact, and owner confirmation."
+    "sourcePolicy": "Publish real attraction leads with an explicit status. Do not present candidate or archived records as current schedules, prices, access, or owner-approved listings.",
+    "primarySources": [
+      "https://cityofsanpedrolaguna.gov.ph/wp-content/uploads/2025/05/cc_tcao25.pdf",
+      "https://issuances-library.senate.gov.ph/subject/sampaguita-festival",
+      "https://www.dti.gov.ph/tag/dti-laguna/page/2/",
+      "https://blgf.gov.ph/regional-offices/region-4a/",
+      "https://www.dpwh.gov.ph/dpwh/sites/default/files/references/part_iii.pdf"
+    ],
+    "instructions": "Add hours, fees, contacts, images, and booking links only after checking the current responsible owner or government source. Keep a source and last-checked date with every record."
   },
   "categories": [
-    { "id": "office", "label": "Official office", "icon": "Landmark" },
-    { "id": "events", "label": "Archived events", "icon": "CalendarDays" },
-    { "id": "culture", "label": "Culture and arts", "icon": "Palette" }
+    { "id": "events", "label": "Festivals and events", "icon": "CalendarDays" },
+    { "id": "heritage", "label": "Heritage and faith", "icon": "Landmark" },
+    { "id": "culture", "label": "Heritage and culture", "icon": "Palette" },
+    {
+      "id": "landmarks",
+      "label": "Landmarks and public spaces",
+      "icon": "MapPin"
+    },
+    { "id": "recreation", "label": "Recreation", "icon": "Compass" },
+    { "id": "sports", "label": "Recreation and sports", "icon": "Trophy" },
+    {
+      "id": "local-life",
+      "label": "Culture and local life",
+      "icon": "Flower2"
+    },
+    {
+      "id": "office",
+      "label": "Official tourism information",
+      "icon": "Landmark"
+    }
   ],
   "establishments": [
     {
-      "name": "City Tourism, Culture and Arts Office",
-      "category": "office",
-      "address": "City Hall Building, Brgy. Poblacion, City of San Pedro, Laguna",
-      "contact": "City Hall trunkline: (02) 8808-2020",
-      "website": "https://cityofsanpedrolaguna.gov.ph/",
-      "source": "https://cityofsanpedrolaguna.gov.ph/wp-content/uploads/2025/05/cc_tcao25.pdf",
-      "description": "The official city office responsible for tourism, culture, and arts services."
-    },
-    {
-      "name": "Sampaguita Festival 2024",
+      "id": "sampaguita-festival",
+      "name": "Sampaguita Festival",
       "category": "events",
-      "website": "https://cityofsanpedrolaguna.gov.ph/category/news-and-releases/page/91/",
-      "source": "https://cityofsanpedrolaguna.gov.ph/category/news-and-releases/page/91/",
-      "description": "Archived official city announcements for the 2024 Sampaguita Festival. This record does not confirm a current event schedule."
+      "status": "archive",
+      "location": "Citywide; venues vary by edition",
+      "description": "San Pedro's signature citywide celebration connects sampaguita, community, culture, trade fairs, parades, and the Hiyas ng San Pedro program. Current dates require a new official schedule.",
+      "sources": [
+        {
+          "label": "Senate festival records",
+          "url": "https://issuances-library.senate.gov.ph/subject/sampaguita-festival"
+        },
+        {
+          "label": "DTI-Laguna festival coverage",
+          "url": "https://www.dti.gov.ph/tag/dti-laguna/page/2/"
+        },
+        {
+          "label": "BLGF Region IV-A festival list",
+          "url": "https://blgf.gov.ph/regional-offices/region-4a/"
+        }
+      ]
     },
     {
-      "name": "San Pedro Cultural Mapping Project 2024",
+      "id": "lolo-uweng",
+      "name": "Lolo Uweng Shrine",
+      "category": "heritage",
+      "status": "candidate",
+      "location": "Brgy. Landayan",
+      "description": "The Diocesan Shrine of Jesus in the Holy Sepulchre, known locally as Lolo Uweng, is identified in a national infrastructure reference as a major religious and cultural draw. Parish confirmation is still needed.",
+      "sources": [
+        {
+          "label": "DPWH Laguna Lakeshore reference",
+          "url": "https://www.dpwh.gov.ph/dpwh/sites/default/files/references/part_iii.pdf"
+        },
+        {
+          "label": "Secondary visitor reference",
+          "url": "https://en.wikivoyage.org/wiki/San_Pedro_%28Laguna%29"
+        }
+      ]
+    },
+    {
+      "id": "san-pedro-apostol",
+      "name": "San Pedro Apostol Parish Church",
+      "category": "heritage",
+      "status": "candidate",
+      "location": "Brgy. Poblacion",
+      "description": "A potential heritage and civic-life stop near the city center. Current visiting information and any heritage designation need parish or diocese confirmation.",
+      "sources": [
+        {
+          "label": "DPWH Laguna Lakeshore reference",
+          "url": "https://www.dpwh.gov.ph/dpwh/sites/default/files/references/part_iii.pdf"
+        },
+        {
+          "label": "Secondary visitor reference",
+          "url": "https://en.wikivoyage.org/wiki/San_Pedro_%28Laguna%29"
+        }
+      ]
+    },
+    {
+      "id": "laurel-museum",
+      "name": "Laurel Museum and Garden",
       "category": "culture",
-      "website": "https://cityofsanpedrolaguna.gov.ph/category/news-and-releases/page/102/",
-      "source": "https://cityofsanpedrolaguna.gov.ph/category/news-and-releases/page/102/",
-      "description": "Official city update on the cultural mapping work conducted with Grupo Kalinangan across San Pedro barangays."
+      "status": "candidate",
+      "location": "San Pedro, Laguna; exact visitor details to confirm",
+      "description": "A museum and garden connected with the Laurel family and local historical memory. Opening status, ownership, and access must be confirmed before promotion.",
+      "sources": [
+        {
+          "label": "DPWH Laguna Lakeshore reference",
+          "url": "https://www.dpwh.gov.ph/dpwh/sites/default/files/references/part_iii.pdf"
+        },
+        {
+          "label": "Secondary museum reference",
+          "url": "https://www.celerhinaaubrey.com/2016/07/a-visit-at-laurels-garden-and-museum.html"
+        }
+      ]
+    },
+    {
+      "id": "risen-christ-statue",
+      "name": "Risen Christ Statue",
+      "category": "landmarks",
+      "status": "candidate",
+      "location": "San Pedro / Laguna Lake area; exact location to confirm",
+      "description": "A landmark identified in the DPWH tourism and development reference. Exact location, access, and maintenance information need current confirmation.",
+      "sources": [
+        {
+          "label": "DPWH Laguna Lakeshore reference",
+          "url": "https://www.dpwh.gov.ph/dpwh/sites/default/files/references/part_iii.pdf"
+        }
+      ]
+    },
+    {
+      "id": "st-peter-statue",
+      "name": "St. Peter the Apostle Statue",
+      "category": "landmarks",
+      "status": "candidate",
+      "location": "Laguna Lake area; exact location to confirm",
+      "description": "A San Pedro landmark listed in the DPWH reference as part of a potential tourism circuit. Location, public access, and current condition require local verification.",
+      "sources": [
+        {
+          "label": "DPWH Laguna Lakeshore reference",
+          "url": "https://www.dpwh.gov.ph/dpwh/sites/default/files/references/part_iii.pdf"
+        }
+      ]
+    },
+    {
+      "id": "kc-filipinas",
+      "name": "KC Filipinas Golf Club",
+      "category": "recreation",
+      "status": "candidate",
+      "location": "Brgy. San Antonio",
+      "description": "A golf and recreation venue identified in tourism references. Membership, visitor policies, fees, and operating details must come from the venue.",
+      "sources": [
+        {
+          "label": "DPWH Laguna Lakeshore reference",
+          "url": "https://www.dpwh.gov.ph/dpwh/sites/default/files/references/part_iii.pdf"
+        },
+        {
+          "label": "Secondary visitor reference",
+          "url": "https://en.wikivoyage.org/wiki/San_Pedro_%28Laguna%29"
+        }
+      ]
+    },
+    {
+      "id": "laguna-lakeside-boat-club",
+      "name": "Laguna Lakeside Boat Club",
+      "category": "sports",
+      "status": "official",
+      "location": "San Pedro lakeside area",
+      "description": "A San Pedro-based dragon boat team and lakeside community recognized by the City Government for 2025 national competition results. This is not a promise of public boat tours.",
+      "sources": [
+        {
+          "label": "City Government recognition",
+          "url": "https://cityofsanpedrolaguna.gov.ph/congratulations-laguna-lakeside-boat-club/"
+        }
+      ]
+    },
+    {
+      "id": "sampaguita-local-life",
+      "name": "Sampaguita and local products",
+      "category": "local-life",
+      "status": "candidate",
+      "location": "Citywide; producers and venues vary",
+      "description": "Sampaguita growing, lei-making, native food, and older local industries are part of San Pedro's tourism story. Producer profiles require direct confirmation and consent.",
+      "sources": [
+        {
+          "label": "DPWH tourism and development reference",
+          "url": "https://www.dpwh.gov.ph/dpwh/sites/default/files/references/part_iii.pdf"
+        },
+        {
+          "label": "DTI-Laguna festival coverage",
+          "url": "https://www.dti.gov.ph/tag/dti-laguna/page/2/"
+        }
+      ]
+    },
+    {
+      "id": "tcao",
+      "name": "Tourism, Culture and Arts Office",
+      "category": "office",
+      "status": "official",
+      "location": "City Hall Building, Brgy. Poblacion",
+      "description": "The official city office responsible for tourism, culture, and arts programs. Its Citizen's Charter is the first place to verify city-led activities and transactions.",
+      "sources": [
+        {
+          "label": "TCAO Citizen's Charter 2025",
+          "url": "https://cityofsanpedrolaguna.gov.ph/wp-content/uploads/2025/05/cc_tcao25.pdf"
+        }
+      ]
+    },
+    {
+      "id": "cultural-mapping",
+      "name": "San Pedro Cultural Mapping Project",
+      "category": "local-life",
+      "status": "archive",
+      "location": "Barangays across San Pedro",
+      "description": "An official city cultural-mapping reference that can grow this directory toward barangay stories, practices, and heritage assets.",
+      "sources": [
+        {
+          "label": "City cultural mapping update",
+          "url": "https://cityofsanpedrolaguna.gov.ph/category/news-and-releases/page/102/"
+        }
+      ]
     }
   ]
 }
