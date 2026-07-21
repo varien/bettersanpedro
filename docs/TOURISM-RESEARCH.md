@@ -28,3 +28,7 @@ The city website was unstable during the research session. City links remain in 
 2. Confirm access and owner contacts for Lolo Uweng, San Pedro Apostol, Laurel Museum, Risen Christ Statue, St. Peter Statue, and KC Filipinas.
 3. Invite local producers and cultural workers to contribute profiles with consent.
 4. Add licensed or CC images only after recording the source and reuse permission.
+
+## Photography
+
+The tourism homepage uses three locally bundled Wikimedia Commons photographs for visual context: a San Pedro streetscape, the City Library & Museum, and the Town Center Wet and Dry Market. Attribution and license details are recorded in [`docs/TOURISM-MEDIA.md`](TOURISM-MEDIA.md). These images do not imply that a venue is currently open or that the pictured site is an official tourism listing.

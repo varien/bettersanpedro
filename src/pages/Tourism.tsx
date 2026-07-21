@@ -9,9 +9,10 @@ import {
   MapPin,
   Search,
 } from 'lucide-react';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import SEO from '../components/SEO';
 import { useTranslation } from '../hooks/useTranslation';
+import { useParams } from 'react-router-dom';
 
 type TourismStatus = 'official' | 'archive' | 'candidate';
 
@@ -281,6 +282,24 @@ const FILTERS = [
   'Official tourism information',
 ];
 
+const ROUTE_CATEGORY_FILTERS: Record<string, string[]> = {
+  heritage: ['Heritage and faith', 'Heritage and culture'],
+  landmarks: ['Landmarks and public spaces'],
+  recreation: ['Recreation', 'Recreation and sports'],
+  events: ['Festivals and events'],
+  'local-life': ['Culture and local life'],
+  office: ['Official tourism information'],
+};
+
+const ROUTE_CATEGORY_LABELS: Record<string, string> = {
+  heritage: 'Heritage and faith',
+  landmarks: 'Landmarks and public spaces',
+  recreation: 'Recreation and sports',
+  events: 'Festivals and events',
+  'local-life': 'Sampaguita and local life',
+  office: 'Tourism information',
+};
+
 const STATUS_LABELS: Record<
   TourismStatus,
   { en: string; fil: string; className: string }
@@ -371,26 +390,42 @@ function AttractionCard({
 export default function Tourism() {
   const { currentLanguage } = useTranslation();
   const isFil = currentLanguage === 'fil';
+  const { category: routeCategory } = useParams<{ category?: string }>();
+  const routeFilters = routeCategory
+    ? ROUTE_CATEGORY_FILTERS[routeCategory]
+    : undefined;
   const [activeFilter, setActiveFilter] = useState('All highlights');
   const [query, setQuery] = useState('');
+
+  useEffect(() => {
+    setActiveFilter('All highlights');
+    setQuery('');
+  }, [routeCategory]);
 
   const filteredAttractions = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
     return ATTRACTIONS.filter(attraction => {
+      const matchesRoute =
+        activeFilter !== 'All highlights' ||
+        !routeFilters?.length ||
+        routeFilters.includes(attraction.category);
       const matchesFilter =
         activeFilter === 'All highlights' ||
         attraction.category === activeFilter;
       const searchable =
         `${attraction.name} ${attraction.category} ${attraction.location} ${attraction.description}`.toLowerCase();
       return (
+        matchesRoute &&
         matchesFilter &&
         (!normalizedQuery || searchable.includes(normalizedQuery))
       );
     });
-  }, [activeFilter, query]);
+  }, [activeFilter, query, routeFilters]);
 
   const featuredAttractions = ATTRACTIONS.filter(
-    attraction => attraction.featured
+    attraction =>
+      attraction.featured &&
+      (!routeFilters?.length || routeFilters.includes(attraction.category))
   );
 
   return (
@@ -401,29 +436,62 @@ export default function Tourism() {
         keywords="San Pedro Laguna tourism, Sampaguita Festival, Lolo Uweng, heritage, culture, attractions"
       />
       <main className="flex-grow">
-        <section
-          className="relative overflow-hidden bg-[#003087] py-16 text-white"
-          style={{
-            backgroundImage:
-              'radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1px)',
-            backgroundSize: '24px 24px',
-          }}
-        >
-          <div className="mx-auto max-w-7xl px-4 sm:px-6">
-            <div className="mb-2 flex items-center gap-3 text-blue-200">
-              <Compass className="h-7 w-7" />
-              <span className="text-sm font-medium uppercase tracking-widest">
-                San Pedro, Laguna
-              </span>
+        <section className="relative isolate overflow-hidden bg-[#003087] text-white">
+          <img
+            src="/tourism/san-pedro-city-square.jpg"
+            alt="San Pedro, Laguna streetscape"
+            className="absolute inset-0 -z-20 h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 -z-10 bg-[#003087]/85" />
+          <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#003087] via-[#003087]/85 to-[#006b70]/55" />
+          <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20">
+            <div className="max-w-3xl">
+              <div className="mb-3 flex items-center gap-3 text-blue-200">
+                <Compass className="h-7 w-7" />
+                <span className="text-sm font-medium uppercase tracking-widest">
+                  Sampaguita City · San Pedro, Laguna
+                </span>
+              </div>
+              <h1 className="text-4xl font-black sm:text-6xl">
+                {routeCategory && ROUTE_CATEGORY_LABELS[routeCategory]
+                  ? ROUTE_CATEGORY_LABELS[routeCategory]
+                  : isFil
+                    ? 'Mga Lugar, Kultura at Kaganapan'
+                    : 'Explore San Pedro'}
+              </h1>
+              <p className="mt-4 max-w-2xl text-lg leading-relaxed text-blue-100 sm:text-xl">
+                {isFil
+                  ? 'Isang source-backed na gabay sa sampaguita, heritage, city life, at mga kuwentong lakeside ng San Pedro.'
+                  : 'A source-backed guide to sampaguita, heritage, city life, and lakeside stories in San Pedro.'}
+              </p>
+              <div className="mt-8 flex flex-wrap gap-3 text-sm font-bold text-blue-50">
+                <span className="rounded-full border border-white/20 bg-white/10 px-4 py-2 backdrop-blur-sm">
+                  6 guide categories
+                </span>
+                <span className="rounded-full border border-white/20 bg-white/10 px-4 py-2 backdrop-blur-sm">
+                  11 source-linked records
+                </span>
+                <span className="rounded-full border border-white/20 bg-white/10 px-4 py-2 backdrop-blur-sm">
+                  Status-labelled
+                </span>
+              </div>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <a
+                  href="#directory"
+                  className="inline-flex items-center gap-2 rounded-xl bg-white px-5 py-3 text-sm font-bold text-primary-800 hover:bg-blue-50"
+                >
+                  Explore the directory <ArrowRight className="h-4 w-4" />
+                </a>
+                <a
+                  href="https://commons.wikimedia.org/wiki/File:San_Pedro_City_Laguna.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-xl border border-blue-300 px-5 py-3 text-sm font-bold text-white hover:bg-white/10"
+                >
+                  View photo source <ExternalLink className="h-4 w-4" />
+                </a>
+              </div>
             </div>
-            <h1 className="text-4xl font-black sm:text-5xl">
-              {isFil ? 'Mga Lugar, Kultura at Kaganapan' : 'Discover San Pedro'}
-            </h1>
-            <p className="mt-3 max-w-3xl text-lg text-blue-100">
-              {isFil
-                ? 'Tunay na panimulang guide sa mga landmark, festival, heritage, recreation, at lokal na buhay ng San Pedro.'
-                : 'A real starting guide to San Pedro landmarks, festivals, heritage, recreation, and local life.'}
-            </p>
           </div>
         </section>
 
@@ -461,7 +529,10 @@ export default function Tourism() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-7xl px-4 pb-12 sm:px-6">
+        <section
+          id="highlights"
+          className="mx-auto max-w-7xl px-4 pb-12 sm:px-6"
+        >
           <div className="mb-6 flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
             <div>
               <p className="text-xs font-bold uppercase tracking-widest text-primary-700">
@@ -490,7 +561,7 @@ export default function Tourism() {
           </div>
         </section>
 
-        <section className="border-y border-gray-100 bg-gray-50">
+        <section id="directory" className="border-y border-gray-100 bg-gray-50">
           <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
             <div className="mb-6 flex flex-col justify-between gap-4 lg:flex-row lg:items-end">
               <div>
@@ -640,6 +711,27 @@ export default function Tourism() {
             {isFil
               ? 'Huling sinuri: Hulyo 21, 2026. Ang mga candidate at archival record ay hindi garantiya ng kasalukuyang bukas, presyo, schedule, o accessibility. Beripikahin bago bumiyahe.'
               : 'Last researched: July 21, 2026. Candidate and archived records do not guarantee current opening hours, prices, schedules, or accessibility. Verify before travelling.'}
+          </p>
+          <p className="mt-3 text-xs leading-relaxed text-gray-500">
+            {isFil ? 'Mga larawan: ' : 'Photos: '}
+            <a
+              href="https://commons.wikimedia.org/wiki/File:San_Pedro_City_Laguna.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-primary-700 hover:underline"
+            >
+              Wikimedia Commons, San Pedro City Laguna
+            </a>{' '}
+            ·{' '}
+            <a
+              href="https://commons.wikimedia.org/wiki/File:San_Pedro_City_Library_%26_Museum,_Laguna.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-primary-700 hover:underline"
+            >
+              Library & Museum photo
+            </a>{' '}
+            (CC BY-SA 4.0)
           </p>
         </section>
       </main>
