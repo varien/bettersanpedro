@@ -68,6 +68,8 @@ export default function Document({
         setLoading(true);
         setError(null);
         setSourceGuide(false);
+        setMarkdownContent(null);
+        setNestedIndex(null);
 
         const isGovernment = categoryType === 'government';
         const categories = isGovernment
