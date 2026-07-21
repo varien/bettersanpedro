@@ -23,6 +23,10 @@ interface SearchItem {
   type: 'service' | 'government';
 }
 
+function searchText(value: string | undefined) {
+  return value?.toLowerCase() ?? '';
+}
+
 const POPULAR_CATEGORIES = [
   {
     labelKey: 'services.categories.business.name',
@@ -126,10 +130,10 @@ export default function Hero() {
         for (const page of pages) {
           items.push({
             id: `service-${cat.slug}-${page.slug}`,
-            name: page.name,
+            name: page.name || page.slug,
             slug: page.slug,
             categorySlug: cat.slug,
-            categoryName: cat.category,
+            categoryName: cat.category || cat.slug,
             type: 'service',
           });
         }
@@ -156,7 +160,7 @@ export default function Hero() {
         for (const page of pages) {
           items.push({
             id: `govt-${cat.slug}-${page.slug}`,
-            name: page.name,
+            name: page.name || page.slug,
             slug: page.slug,
             categorySlug: cat.slug,
             categoryName: cat.name,
@@ -190,8 +194,8 @@ export default function Hero() {
     ? allSearchItems
         .filter(
           s =>
-            s.name.toLowerCase().includes(query.toLowerCase()) ||
-            s.categoryName.toLowerCase().includes(query.toLowerCase())
+            searchText(s.name).includes(query.toLowerCase()) ||
+            searchText(s.categoryName).includes(query.toLowerCase())
         )
         .slice(0, 8)
     : [];

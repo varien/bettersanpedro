@@ -76,7 +76,7 @@ const Services: React.FC = () => {
             const { cat, pages } = result.value;
             for (const page of pages) {
               items.push({
-                name: page.name,
+                name: page.name || page.slug,
                 slug: page.slug,
                 description: page.description,
                 categorySlug: cat.slug,
@@ -105,24 +105,26 @@ const Services: React.FC = () => {
 
   const filteredServices = allServices.filter(service => {
     const q = query.toLowerCase().trim();
-    const transName = t(
-      `services.subcategories.${service.slug}.name`,
-      service.name
-    ).toLowerCase();
+    const transName =
+      t(
+        `services.subcategories.${service.slug}.name`,
+        service.name
+      )?.toLowerCase() || '';
     const transDesc = (
       t(
         `services.subcategories.${service.slug}.description`,
         service.description || ''
       ) || ''
     ).toLowerCase();
-    const transCatName = t(
-      `services.categories.${service.categorySlug}.name`,
-      service.categoryName
-    ).toLowerCase();
+    const transCatName =
+      t(
+        `services.categories.${service.categorySlug}.name`,
+        service.categoryName
+      )?.toLowerCase() || '';
     return (
-      service.name.toLowerCase().includes(q) ||
+      (service.name || '').toLowerCase().includes(q) ||
       (service.description && service.description.toLowerCase().includes(q)) ||
-      service.categoryName.toLowerCase().includes(q) ||
+      (service.categoryName || '').toLowerCase().includes(q) ||
       transName.includes(q) ||
       transDesc.includes(q) ||
       transCatName.includes(q)
