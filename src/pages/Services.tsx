@@ -61,7 +61,7 @@ const Services: React.FC = () => {
     if (query.trim()) {
       setSearchLoading(true);
       const serviceCats = serviceCategories.categories;
-      Promise.all(
+      Promise.allSettled(
         serviceCats.map(cat =>
           getCategorySubcategories(cat.slug).then(idx => ({
             cat,
@@ -71,7 +71,9 @@ const Services: React.FC = () => {
       )
         .then(results => {
           const items = [];
-          for (const { cat, pages } of results) {
+          for (const result of results) {
+            if (result.status !== 'fulfilled') continue;
+            const { cat, pages } = result.value;
             for (const page of pages) {
               items.push({
                 name: page.name,

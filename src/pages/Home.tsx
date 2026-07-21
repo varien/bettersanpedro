@@ -5,6 +5,7 @@ import GovernmentActivitySection from '../components/home/GovernmentActivitySect
 import StatsSection from '../components/home/StatsSection';
 import WeatherMapSection from '../components/home/WeatherMapSection';
 import TourismSection from '../components/home/TourismSection';
+import HistorySection from '../components/home/HistorySection';
 import ContactSection from '../components/home/ContactSection';
 import ContentStatusSection from '../components/home/ContentStatusSection';
 import SEO from '../components/SEO';
@@ -23,6 +24,7 @@ const Home: React.FC = () => {
         <YakapPromoBanner />
         <ServicesSection />
         <TourismSection />
+        <HistorySection />
         <WeatherMapSection />
         <GovernmentActivitySection />
         <ContentStatusSection />

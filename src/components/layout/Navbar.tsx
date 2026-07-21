@@ -304,13 +304,17 @@ const Navbar: React.FC = () => {
       {/* ── Main Navbar ───────────────────────────────────── */}
       <div className="bg-white shadow-sm border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="flex items-center justify-between h-20">
+          <div className="flex items-center justify-between h-20 sm:h-24">
             {/* Logo */}
-            <Link to="/" className="shrink-0" aria-label="BetterSanPedro.ph home">
+            <Link
+              to="/"
+              className="shrink-0"
+              aria-label="BetterSanPedro.ph home"
+            >
               <img
                 src="/branding/better-san-pedro-arch-key-sampaguita-concept-v3.png"
                 alt="Better San Pedro"
-                className="h-14 w-auto object-contain"
+                className="h-16 w-auto object-contain sm:h-[4.5rem]"
               />
             </Link>
 

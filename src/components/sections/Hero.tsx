@@ -20,7 +20,7 @@ interface SearchItem {
   slug: string;
   categorySlug: string;
   categoryName: string;
-  type: 'service' | 'government' | 'tourism';
+  type: 'service' | 'government';
 }
 
 const POPULAR_CATEGORIES = [
@@ -111,7 +111,7 @@ export default function Hero() {
         category: string;
         slug: string;
       }[];
-      const serviceResults = await Promise.all(
+      const serviceResults = await Promise.allSettled(
         serviceCats.map(cat =>
           loadCategoryIndex(cat.slug).then(idx => ({
             cat,
@@ -120,7 +120,9 @@ export default function Hero() {
         )
       );
 
-      for (const { cat, pages } of serviceResults) {
+      for (const result of serviceResults) {
+        if (result.status !== 'fulfilled') continue;
+        const { cat, pages } = result.value;
         for (const page of pages) {
           items.push({
             id: `service-${cat.slug}-${page.slug}`,
@@ -139,7 +141,7 @@ export default function Hero() {
         { slug: 'legislative', name: 'Legislative' },
         { slug: 'reports-and-statistics', name: 'Reports & Stats' },
       ];
-      const govtResults = await Promise.all(
+      const govtResults = await Promise.allSettled(
         govtCats.map(cat =>
           loadCategoryIndex(cat.slug).then(idx => ({
             cat,
@@ -148,7 +150,9 @@ export default function Hero() {
         )
       );
 
-      for (const { cat, pages } of govtResults) {
+      for (const result of govtResults) {
+        if (result.status !== 'fulfilled') continue;
+        const { cat, pages } = result.value;
         for (const page of pages) {
           items.push({
             id: `govt-${cat.slug}-${page.slug}`,
@@ -159,26 +163,6 @@ export default function Hero() {
             type: 'government',
           });
         }
-      }
-
-      // 3. Fetch Tourism (Static JSON)
-      try {
-        const tourismData =
-          await import('../../../content/tourism/establishments.json');
-        if (tourismData?.establishments) {
-          for (const est of tourismData.establishments) {
-            items.push({
-              id: `tourism-${est.category}-${est.name.toLowerCase().replace(/\s+/g, '-')}`,
-              name: est.name,
-              slug: est.name.toLowerCase().replace(/\s+/g, '-'),
-              categorySlug: est.category,
-              categoryName: 'Tourism',
-              type: 'tourism',
-            });
-          }
-        }
-      } catch (e) {
-        console.warn('Failed to load tourism data for search', e);
       }
 
       setAllSearchItems(items);
@@ -227,8 +211,6 @@ export default function Hero() {
       navigate(`/services/${item.categorySlug}/${item.slug}`);
     } else if (item.type === 'government') {
       navigate(`/government/${item.categorySlug}/${item.slug}`);
-    } else {
-      navigate(`/tourism`);
     }
   };
 
@@ -290,7 +272,7 @@ export default function Hero() {
                     <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none" />
                     <input
                       ref={inputRef}
-                      type="text"
+                      type="search"
                       value={query}
                       onChange={e => {
                         setQuery(e.target.value);
@@ -301,8 +283,20 @@ export default function Hero() {
                         'hero.searchPlaceholder',
                         'Search for a service...'
                       )}
-                      className="w-full border border-gray-200 rounded-lg pl-9 pr-4 py-2.5 text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                      aria-label={t(
+                        'hero.searchPlaceholder',
+                        'Search for a service...'
+                      )}
+                      className="w-full border border-gray-200 rounded-lg pl-9 pr-24 py-2.5 text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     />
+                    <button
+                      type="submit"
+                      disabled={!query.trim()}
+                      className="absolute right-1.5 top-1/2 inline-flex -translate-y-1/2 items-center gap-1 rounded-md bg-primary-700 px-3 py-1.5 text-xs font-bold text-white transition-colors hover:bg-primary-800 disabled:cursor-not-allowed disabled:bg-gray-300"
+                    >
+                      <Search className="h-3.5 w-3.5" aria-hidden="true" />
+                      {t('hero.searchAction', 'Search')}
+                    </button>
                   </div>
                 </form>
 
