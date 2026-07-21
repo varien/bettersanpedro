@@ -1,0 +1,52 @@
+- id: cbc
+  name: Complete Blood Count (CBC) with Platelet Count
+  layDescription: Pagsusuri ng dugo para sa impeksyon, anemia, o dengue.
+  details: Helps identify infection, anemia, bleeding disorders, and monitors platelet count for viral illnesses like dengue.
+- id: urinalysis
+  name: Urinalysis
+  layDescription: Pagsuri sa ihi para malaman kung may UTI o sakit sa bato.
+  details: Screens for urinary tract infections (UTIs), kidney dysfunction, and early metabolic disorders.
+- id: fecalysis
+  name: Fecalysis
+  layDescription: Pagsusuri ng dumi para sa bulate o impeksyon sa tiyan.
+  details: Detects digestive tract infections, parasites, amoebiasis, and signs of gastrointestinal issues.
+- id: fbs
+  name: Fasting Blood Sugar (FBS)
+  layDescription: Pagsuri ng sugar sa dugo para sa screening ng diabetes.
+  details: Measures blood glucose levels after an 8-hour fast. Crucial for early detection of diabetes and pre-diabetes.
+- id: ogtt
+  name: Oral Glucose Tolerance Test (OGTT)
+  layDescription: Advanced na pagsubok sa sugar, lalo na para sa mga buntis.
+  details: Evaluates how your body processes sugar over time. Essential for prenatal screenings and advanced diabetes profiling.
+- id: hba1c
+  name: HbA1c (Glycated Hemoglobin)
+  layDescription: Average na sugar level sa loob ng nakalipas na 3 buwan.
+  details: Provides a three-month average of blood sugar levels. Essential for monitoring long-term glycemic control in diabetic patients.
+- id: lipid
+  name: Lipid Profile
+  layDescription: Sukat ng cholesterol at triglycerides (risko sa sakit sa puso).
+  details: Measures total cholesterol, HDL (good cholesterol), LDL (bad cholesterol), and triglycerides to assess cardiovascular risk.
+- id: creatinine
+  name: Creatinine
+  layDescription: Pagsusuri sa kalusugan at function ng mga bato (kidney).
+  details: Measures creatinine levels in the blood to screen for, evaluate, and monitor kidney disease or dysfunction.
+- id: ecg
+  name: Electrocardiogram (ECG)
+  layDescription: Pagsuri sa ritmo at tibok ng iyong puso.
+  details: Records the electrical signals of your heart to check for abnormal heart rhythms, damage, or early cardiovascular disease.
+- id: xray
+  name: Chest X-ray
+  layDescription: Larawan ng baga para sa pneumonia o tuberculosis (TB).
+  details: Screens for pulmonary infections, tuberculosis (TB), lung tumors, fluid accumulation, and cardiovascular enlargement.
+- id: sputum
+  name: Sputum Microscopy / GeneXpert
+  layDescription: Pagsuri ng plema para sa kumpirmasyon ng TB.
+  details: Highly precise test analyzing phlegm to diagnose tuberculosis (TB) and determine drug-resistant strains.
+- id: pap
+  name: Pap Smear
+  layDescription: Screening ng cervix para sa pag-iwas sa cervical cancer.
+  details: Saves lives through early screening and prevention of cervical cancer in women by detecting precancerous cell changes.
+- id: fobt
+  name: Fecal Occult Blood Test (FOBT)
+  layDescription: Pagsuri kung may nakatagong dugo sa dumi (screen ng colon cancer).
+  details: Checks for hidden blood in the stool, an important early screening tool for colon cancer and internal bleeding.

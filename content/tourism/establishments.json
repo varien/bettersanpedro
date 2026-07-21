@@ -1,0 +1,658 @@
+{
+  "meta": {
+    "lastUpdated": "2026-04-06",
+    "source": "Indang Tourism Office — 2026 Official List",
+    "description": "Tourism establishments in Indang, Cavite. Add, remove, or edit entries below.",
+    "instructions": "Each entry requires 'name' and 'category'. All other fields are optional — leave as empty string if unknown."
+  },
+  "categories": [
+    { "id": "heritage", "label": "Heritage & History", "icon": "Landmark" },
+    { "id": "resorts", "label": "Resorts & Pools", "icon": "Waves" },
+    { "id": "farms", "label": "Farms & Agri-Tour", "icon": "Tractor" },
+    { "id": "events", "label": "Events & Glamping", "icon": "BedDouble" },
+    { "id": "restaurants", "label": "Cafés & Dining", "icon": "Utensils" },
+    { "id": "adventure", "label": "Adventure & Eco", "icon": "MapPin" }
+  ],
+  "establishments": [
+    {
+      "name": "Bonifacio Shrine",
+      "category": "heritage",
+      "address": "Barangay Limbon, Indang, Cavite",
+      "contact": "",
+      "facebook": "",
+      "image": "/tourism/bonifacio-shrine.webp",
+      "description": "The exact site where Andres Bonifacio was arrested in April 1897. A National Historical Commission marker stands here, preserving one of the most pivotal moments of the Philippine Revolution.",
+      "tags": ["historical", "revolution", "Katipunan", "NHCP marker"]
+    },
+    {
+      "name": "St. Gregory the Great Parish Church",
+      "category": "heritage",
+      "address": "Poblacion, Indang, Cavite",
+      "contact": "",
+      "facebook": "",
+      "image": "/tourism/st-gregory-parish.webp",
+      "description": "Built in 1611 and completed in stone by 1655, it is one of the oldest churches in Cavite. Known for its rose-colored stone facade and the historic convent that served as a revolutionary headquarters.",
+      "tags": ["church", "1611", "colonial", "Augustinian", "architecture"]
+    },
+    {
+      "name": "Cavite State University (CvSU) Main Campus",
+      "category": "heritage",
+      "address": "Indang, Cavite",
+      "contact": "(046) 415-0010",
+      "facebook": "https://www.facebook.com/CaviteStateU",
+      "website": "https://www.cvsu.edu.ph",
+      "image": "/tourism/CvSU.webp",
+      "description": "Founded in 1906 as the Indang Intermediate School, this 70-hectare campus is a landmark of academic excellence and agricultural research. Open for campus tours and the Agri-Eco Tourism Park.",
+      "tags": ["university", "1906", "landmark", "academic"]
+    },
+    {
+      "name": "Saint Vincent Ferrer Parish",
+      "category": "heritage",
+      "address": "Lumampong Halayhay, Indang, Cavite",
+      "contact": "",
+      "facebook": "",
+      "description": "A key spiritual landmark serving the upland barangay communities of Indang.",
+      "tags": ["church", "parish", "heritage"]
+    },
+    {
+      "name": "Seven Archangels Chapel",
+      "category": "heritage",
+      "address": "Daine I, Indang, Cavite",
+      "contact": "",
+      "facebook": "",
+      "description": "A significant local chapel known for its peaceful atmosphere and deep community importance in Barangay Daine I.",
+      "tags": ["chapel", "heritage", "spiritual"]
+    },
+    {
+      "name": "Indang Community Museum",
+      "category": "heritage",
+      "address": "Poblacion, Indang, Cavite",
+      "contact": "",
+      "facebook": "",
+      "description": "Preserves artifacts, documents, and stories of Indang's revolutionary and agricultural past. Open Mon–Fri 8AM–5PM, Sat 8AM–4PM.",
+      "tags": ["museum", "history", "artifacts", "revolution"]
+    },
+    {
+      "name": "MKC Weavers Association",
+      "category": "heritage",
+      "address": "Indang, Cavite",
+      "contact": "",
+      "facebook": "",
+      "description": "A local collective of traditional loom weavers dedicated to maintaining indigenous weaving techniques and providing livelihoods for Indang artisans.",
+      "tags": ["weaving", "crafts", "artisan", "cultural"]
+    },
+    {
+      "name": "Yndan (Heritage Weaving Brand)",
+      "category": "heritage",
+      "address": "Indang, Cavite",
+      "contact": "",
+      "facebook": "",
+      "description": "A contemporary brand blending Indang's heritage weaving tradition with modern design. Follow @yndanph on Instagram.",
+      "tags": ["weaving", "fashion", "heritage", "modern"]
+    },
+
+    {
+      "name": "Alta Rios Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0917-130-2893",
+      "facebook": "",
+      "description": "",
+      "tags": ["spring", "resort"]
+    },
+    {
+      "name": "Angelzen Private Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0995-094-6310",
+      "facebook": "",
+      "description": "",
+      "tags": ["private", "resort"]
+    },
+    {
+      "name": "Bonne Riviere Nature Farm Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0998-352-3936",
+      "facebook": "",
+      "description": "",
+      "tags": ["nature", "farm", "resort"]
+    },
+    {
+      "name": "Casa Bettina Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0969-547-6005",
+      "facebook": "",
+      "description": "",
+      "tags": ["resort", "private"]
+    },
+    {
+      "name": "Casa De Hardin",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0927-772-5360",
+      "facebook": "",
+      "description": "",
+      "tags": ["garden", "resort"]
+    },
+    {
+      "name": "Casa Goow Private Farm Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0962-653-2273",
+      "facebook": "",
+      "description": "",
+      "tags": ["farm", "private", "resort"]
+    },
+    {
+      "name": "Casa Virliosa Indang",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0965-057-1753",
+      "facebook": "",
+      "description": "",
+      "tags": ["resort", "private"]
+    },
+    {
+      "name": "Casita De Señerez Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0977-812-3449",
+      "facebook": "",
+      "description": "",
+      "tags": ["resort", "private"]
+    },
+    {
+      "name": "Casita ni Manoling at Remedios",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0945-345-6903",
+      "facebook": "",
+      "description": "",
+      "tags": ["resort", "private"]
+    },
+    {
+      "name": "Claresse Private Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0929-216-5429",
+      "facebook": "",
+      "description": "",
+      "tags": ["resort", "private"]
+    },
+    {
+      "name": "El Herencia Private Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0921-288-8155",
+      "facebook": "",
+      "description": "",
+      "tags": ["resort", "private"]
+    },
+    {
+      "name": "Hacienda Gracita Leisure Farm and Private Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0915-317-7478",
+      "facebook": "",
+      "description": "",
+      "tags": ["hacienda", "farm", "resort"]
+    },
+    {
+      "name": "Hamani Pool Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0908-899-6755",
+      "facebook": "",
+      "description": "",
+      "tags": ["pool", "resort"]
+    },
+    {
+      "name": "Isabelita Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0916-209-3168",
+      "facebook": "",
+      "description": "",
+      "tags": ["resort"]
+    },
+    {
+      "name": "Kanlungan Private Pool",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0935-781-3550",
+      "facebook": "",
+      "description": "",
+      "tags": ["pool", "private"]
+    },
+    {
+      "name": "Kubo de Cerca",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0962-442-8171",
+      "facebook": "",
+      "description": "",
+      "tags": ["kubo", "resort"]
+    },
+    {
+      "name": "La-Casa De Serenidad Private Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0908-880-7614",
+      "facebook": "",
+      "description": "",
+      "tags": ["resort", "private"]
+    },
+    {
+      "name": "La Ulrichland Farm Resorts and Events Place",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0932-871-4568",
+      "facebook": "",
+      "description": "",
+      "tags": ["farm", "resort", "events"]
+    },
+    {
+      "name": "Lenjawi Resort and Events",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0995-187-2083",
+      "facebook": "",
+      "description": "",
+      "tags": ["resort", "events"]
+    },
+    {
+      "name": "LVG Paraiso Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0946-030-5540",
+      "facebook": "",
+      "description": "",
+      "tags": ["resort", "paraiso"]
+    },
+    {
+      "name": "Mark and Maria Private Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0975-341-5172",
+      "facebook": "",
+      "description": "",
+      "tags": ["resort", "private"]
+    },
+    {
+      "name": "R.A's Private Pool",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0912-672-5484",
+      "facebook": "",
+      "description": "",
+      "tags": ["pool", "private"]
+    },
+    {
+      "name": "Resort sa Kubo ni Ising",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0917-540-8734",
+      "facebook": "",
+      "description": "",
+      "tags": ["kubo", "resort"]
+    },
+    {
+      "name": "Sa Kanluran Private Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0966-255-5507",
+      "facebook": "",
+      "description": "",
+      "tags": ["resort", "private"]
+    },
+    {
+      "name": "Sagana Spring Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0927-836-4336",
+      "facebook": "",
+      "description": "Features continuously flowing natural spring water, one of the signature experiences of Indang — the Town of Many Springs.",
+      "tags": ["spring", "resort", "natural water"]
+    },
+    {
+      "name": "Soiree Private Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0917-563-9167",
+      "facebook": "",
+      "description": "",
+      "tags": ["resort", "private"]
+    },
+    {
+      "name": "Terre Verte Farm Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0919-073-7926",
+      "facebook": "",
+      "description": "",
+      "tags": ["farm", "resort"]
+    },
+    {
+      "name": "The Glass Villas Rental",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0917-866-8800",
+      "facebook": "",
+      "description": "",
+      "tags": ["villa", "rental"]
+    },
+    {
+      "name": "The Joy of Nicky Private Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0999-679-7153",
+      "facebook": "",
+      "description": "",
+      "tags": ["resort", "private"]
+    },
+    {
+      "name": "Villa Feliciana Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0965-281-6128",
+      "facebook": "",
+      "description": "",
+      "tags": ["villa", "resort"]
+    },
+    {
+      "name": "Zolians Villa",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0966-203-4666",
+      "facebook": "",
+      "description": "",
+      "tags": ["villa", "resort"]
+    },
+    {
+      "name": "Zoila's Private Resort",
+      "category": "resorts",
+      "address": "Indang, Cavite",
+      "contact": "0968-598-5470",
+      "facebook": "",
+      "description": "",
+      "tags": ["resort", "private"]
+    },
+
+    {
+      "name": "Bounty Harvest Farm",
+      "category": "farms",
+      "address": "Indang, Cavite",
+      "contact": "0918-913-2463",
+      "facebook": "",
+      "description": "",
+      "tags": ["harvest", "farm", "agri"]
+    },
+    {
+      "name": "CvSU Agri-Eco Tourism Park",
+      "category": "farms",
+      "address": "Cavite State University, Indang, Cavite",
+      "contact": "0908-230-2860",
+      "facebook": "https://www.facebook.com/CvSUOfficial",
+      "image": "/tourism/CvSU.webp",
+      "description": "Agri-eco tourism park inside the CvSU main campus featuring demonstration farms, organic gardens, and agricultural research exhibits.",
+      "tags": ["agri-tourism", "eco", "CvSU", "educational"]
+    },
+    {
+      "name": "E.M.V. Farm Corporation",
+      "category": "farms",
+      "address": "Indang, Cavite",
+      "contact": "0917-108-7132",
+      "facebook": "",
+      "description": "",
+      "tags": ["farm", "corporation"]
+    },
+    {
+      "name": "Hacienda Isabella Group Inc.",
+      "category": "farms",
+      "address": "Indang, Cavite",
+      "contact": "0920-286-8895",
+      "facebook": "",
+      "description": "",
+      "tags": ["hacienda", "farm"]
+    },
+    {
+      "name": "Lihim ng Kubli Farm and Garden",
+      "category": "farms",
+      "address": "Indang, Cavite",
+      "contact": "0998-367-2996",
+      "facebook": "",
+      "description": "",
+      "tags": ["farm", "garden", "nature"]
+    },
+    {
+      "name": "Loufil Orchard Resort",
+      "category": "farms",
+      "address": "Indang, Cavite",
+      "contact": "0967-697-4977",
+      "facebook": "",
+      "description": "",
+      "tags": ["orchard", "farm", "resort"]
+    },
+    {
+      "name": "Marayata Farm",
+      "category": "farms",
+      "address": "Indang, Cavite",
+      "contact": "0917-825-5254",
+      "facebook": "",
+      "description": "",
+      "tags": ["farm"]
+    },
+    {
+      "name": "Mi Granja Events and Leisure",
+      "category": "farms",
+      "address": "Indang, Cavite",
+      "contact": "0936-274-0370",
+      "facebook": "",
+      "description": "",
+      "tags": ["farm", "events", "leisure"]
+    },
+    {
+      "name": "Sagabe Farmstay / Farmstead",
+      "category": "farms",
+      "address": "Indang, Cavite",
+      "contact": "0938-310-7935",
+      "facebook": "",
+      "description": "",
+      "tags": ["farmstay", "agri-tourism"]
+    },
+    {
+      "name": "Sanctuario Nature Farms",
+      "category": "farms",
+      "address": "Indang, Cavite",
+      "contact": "0928-516-3993",
+      "facebook": "",
+      "description": "",
+      "tags": ["nature", "farm", "sanctuary"]
+    },
+    {
+      "name": "Siglo Paraiso Farm",
+      "category": "farms",
+      "address": "Indang, Cavite",
+      "contact": "0926-480-0645",
+      "facebook": "",
+      "description": "",
+      "tags": ["farm", "paraiso"]
+    },
+    {
+      "name": "Silan Agri Farm",
+      "category": "farms",
+      "address": "Indang, Cavite",
+      "contact": "0908-815-8321",
+      "facebook": "",
+      "description": "",
+      "tags": ["agri", "farm"]
+    },
+    {
+      "name": "The Canopy Farm Ph Indang",
+      "category": "farms",
+      "address": "Indang, Cavite",
+      "contact": "0962-447-9893",
+      "facebook": "",
+      "description": "",
+      "tags": ["canopy", "farm", "eco"]
+    },
+
+    {
+      "name": "Balay Homestay",
+      "category": "events",
+      "address": "Indang, Cavite",
+      "contact": "0917-866-5825",
+      "facebook": "",
+      "description": "",
+      "tags": ["homestay", "accommodation"]
+    },
+    {
+      "name": "Balustre Cerca",
+      "category": "events",
+      "address": "Indang, Cavite",
+      "contact": "0918-503-1083",
+      "facebook": "",
+      "description": "",
+      "tags": ["events", "venue"]
+    },
+    {
+      "name": "Belle Accueil Events Place",
+      "category": "events",
+      "address": "Indang, Cavite",
+      "contact": "0921-545-6866",
+      "facebook": "",
+      "description": "",
+      "tags": ["events", "venue"]
+    },
+    {
+      "name": "Buklod Cabins Glamping Services",
+      "category": "events",
+      "address": "Indang, Cavite",
+      "contact": "0955-580-6017",
+      "facebook": "",
+      "description": "Glamping cabins in the heart of Indang's natural landscape — a unique overnight experience surrounded by greenery.",
+      "tags": ["glamping", "cabins", "overnight"]
+    },
+    {
+      "name": "Dayuhan's Events Place Rental",
+      "category": "events",
+      "address": "Indang, Cavite",
+      "contact": "0977-240-4100",
+      "facebook": "",
+      "description": "",
+      "tags": ["events", "rental", "venue"]
+    },
+    {
+      "name": "Donsy's Place Inc.",
+      "category": "events",
+      "address": "Indang, Cavite",
+      "contact": "0920-501-0996",
+      "facebook": "",
+      "description": "",
+      "tags": ["events", "venue"]
+    },
+    {
+      "name": "El Silangan Events Place Rental",
+      "category": "events",
+      "address": "Indang, Cavite",
+      "contact": "0919-814-3777",
+      "facebook": "",
+      "description": "",
+      "tags": ["events", "rental"]
+    },
+    {
+      "name": "Goshen Events Place",
+      "category": "events",
+      "address": "Indang, Cavite",
+      "contact": "0985-877-6450",
+      "facebook": "",
+      "description": "",
+      "tags": ["events", "venue"]
+    },
+    {
+      "name": "Ilaya's Loft Vacation Home Rental",
+      "category": "events",
+      "address": "Indang, Cavite",
+      "contact": "0935-357-9012",
+      "facebook": "",
+      "description": "",
+      "tags": ["loft", "vacation", "rental"]
+    },
+    {
+      "name": "Kasitas Events Place",
+      "category": "events",
+      "address": "Indang, Cavite",
+      "contact": "0939-909-9251",
+      "facebook": "",
+      "description": "",
+      "tags": ["events", "venue"]
+    },
+    {
+      "name": "Macalima Events Place Rental",
+      "category": "events",
+      "address": "Indang, Cavite",
+      "contact": "0906-459-8977",
+      "facebook": "",
+      "description": "",
+      "tags": ["events", "rental"]
+    },
+    {
+      "name": "Mojica Events Place",
+      "category": "events",
+      "address": "Indang, Cavite",
+      "contact": "0966-528-5731",
+      "facebook": "",
+      "description": "",
+      "tags": ["events", "venue"]
+    },
+    {
+      "name": "Our Haven Events Place",
+      "category": "events",
+      "address": "Indang, Cavite",
+      "contact": "0917-904-7702",
+      "facebook": "",
+      "description": "",
+      "tags": ["events", "haven"]
+    },
+    {
+      "name": "Precious Garden Events Place Rental",
+      "category": "events",
+      "address": "Indang, Cavite",
+      "contact": "0917-593-2701",
+      "facebook": "",
+      "description": "",
+      "tags": ["garden", "events", "rental"]
+    },
+
+    {
+      "name": "Pio de Roda Café Restaurant and Catering Services",
+      "category": "restaurants",
+      "address": "Indang, Cavite",
+      "contact": "0926-684-5833",
+      "facebook": "",
+      "description": "Restaurant and catering services offering local Cavite cuisine.",
+      "tags": ["cafe", "restaurant", "catering"]
+    },
+    {
+      "name": "Siglo Farm Café",
+      "category": "restaurants",
+      "address": "Indang, Cavite",
+      "contact": "0965-899-1008",
+      "facebook": "",
+      "description": "Farm-to-table café experience set among Indang's lush greenery.",
+      "tags": ["cafe", "farm-to-table", "dining"]
+    },
+
+    {
+      "name": "Driftwoods Action Park Adventure Park",
+      "category": "adventure",
+      "address": "Indang, Cavite",
+      "contact": "0927-824-6846",
+      "facebook": "",
+      "description": "Action and adventure park featuring outdoor activities in a natural setting.",
+      "tags": ["adventure", "action park", "outdoor", "activities"]
+    }
+  ]
+}

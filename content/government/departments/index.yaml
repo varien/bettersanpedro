@@ -1,0 +1,9 @@
+# Department pages
+
+pages:
+  - name: 'Executive — Office Directory'
+    slug: 'executive'
+    description: 'Verified City Hall office directory and leadership contacts for the City of San Pedro.'
+  - name: 'Local Legislation — Sangguniang Panlungsod'
+    slug: 'officials'
+    description: 'Verified leadership and contact information for the 2025–2028 Sangguniang Panlungsod of San Pedro.'

@@ -1,0 +1,44 @@
+{
+  "GOVERNMENT_NAME": "City of San Pedro",
+  "MAYOR": "Art Joseph Francis Mercado",
+  "VICE_MAYOR": "Sheriliz B. Almoro",
+  "TERM": "2025–2028",
+  "header": {
+    "municipality": "City of San Pedro",
+    "address": "New City Hall Building, Barangay Poblacion, San Pedro, Laguna",
+    "telephone": "(02) 8808-2020",
+    "email": "paio.cityofsanpedro@gmail.com",
+    "website": "https://cityofsanpedrolaguna.gov.ph/"
+  },
+  "city_offices": [
+    { "office": "Office of the City Mayor", "location": "4/F", "telephone": "Local 401", "in_charge": "Mayor Art Joseph Francis Mercado" },
+    { "office": "Office of the City Vice Mayor", "location": "3/F", "telephone": "Local 323 / (02) 8292-8227", "in_charge": "Vice Mayor Sheriliz B. Almoro" },
+    { "office": "Sangguniang Panlungsod Secretariat", "location": "3/F", "telephone": "(02) 8553-0773", "in_charge": "" },
+    { "office": "Office of the City Administrator", "location": "4/F", "telephone": "Local 320 / 410", "in_charge": "" },
+    { "office": "City Legal Office", "location": "4/F", "telephone": "Local 409", "in_charge": "" },
+    { "office": "City Budget Office", "location": "4/F", "telephone": "Local 408", "in_charge": "" },
+    { "office": "General Services Office", "location": "4/F", "telephone": "Local 405 / (02) 8847-6606", "in_charge": "" },
+    { "office": "City Planning and Development Coordinator", "location": "4/F", "telephone": "Local 406 / 407", "in_charge": "" },
+    { "office": "City Information and Communications Technology Office", "location": "4/F", "telephone": "Local 403", "in_charge": "" },
+    { "office": "City Urban Development and Housing Office", "location": "3/F", "telephone": "Local 301", "in_charge": "" },
+    { "office": "City Health Office", "location": "3/F", "telephone": "Local 302", "in_charge": "" },
+    { "office": "Public Affairs and Information Office", "location": "2/F", "telephone": "Local 217 / (02) 8847-6417", "in_charge": "" },
+    { "office": "City Environment and Natural Resources Office", "location": "2/F", "telephone": "Local 208", "in_charge": "" },
+    { "office": "City Engineering Office", "location": "2/F", "telephone": "Local 202 / 203", "in_charge": "" },
+    { "office": "Office of the Building Official", "location": "2/F", "telephone": "Local 205 / 206", "in_charge": "" },
+    { "office": "Business Permits and Licensing Office", "location": "G/F", "telephone": "Local 116 / 117", "in_charge": "" },
+    { "office": "City Civil Registrar", "location": "G/F", "telephone": "Local 108", "in_charge": "" },
+    { "office": "City Accounting Office", "location": "G/F", "telephone": "Local 104 / 105", "in_charge": "" },
+    { "office": "City Assessor's Office", "location": "G/F", "telephone": "Local 112 / 113 / 114", "in_charge": "" },
+    { "office": "City Treasurer's Office", "location": "G/F", "telephone": "Local 110 / 111 / (02) 8868-0143", "in_charge": "" },
+    { "office": "Public Employment Service Office", "location": "G/F", "telephone": "Local 107", "in_charge": "" },
+    { "office": "Human Resource Management Office", "location": "G/F", "telephone": "Local 102 / 103", "in_charge": "" },
+    { "office": "City Social Welfare and Development Office", "location": "B/F", "telephone": "Local 210", "in_charge": "" },
+    { "office": "Office of Senior Citizens Affairs", "location": "B/F", "telephone": "Local 122", "in_charge": "" }
+  ],
+  "source": {
+    "label": "City Government office directory",
+    "url": "https://cityofsanpedrolaguna.gov.ph/wp-content/uploads/2024/04/cc24-municipal-directory.pdf",
+    "last_checked": "2026-07-21"
+  }
+}

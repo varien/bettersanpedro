@@ -1,0 +1,113 @@
+total: 36
+source: PSA 2020 Census
+philatlas_base: 'https://www.philatlas.com/luzon/r04a/cavite/indang'
+
+barangays:
+  - name: Agus-us
+    population: '1,468'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/agus-us.html'
+  - name: Alulod
+    population: '5,055'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/alulod.html'
+  - name: Banaba Cerca
+    population: '3,356'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/banaba-cerca.html'
+  - name: Banaba Lejos
+    population: '1,680'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/banaba-lejos.html'
+  - name: Bancod
+    population: '2,630'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/bancod.html'
+  - name: Barangay 1
+    population: '1,342'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/barangay-1.html'
+  - name: Barangay 2
+    population: '914'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/barangay-2.html'
+  - name: Barangay 3
+    population: '1,057'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/barangay-3.html'
+  - name: Barangay 4
+    population: '2,371'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/barangay-4.html'
+  - name: Buna Cerca
+    population: '4,065'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/buna-cerca.html'
+  - name: Buna Lejos I
+    population: '1,948'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/buna-lejos-i.html'
+  - name: Buna Lejos II
+    population: '2,314'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/buna-lejos-ii.html'
+  - name: Calumpang Cerca
+    population: '3,035'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/calumpang-cerca.html'
+  - name: Calumpang Lejos I
+    population: '2,762'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/calumpang-lejos-i.html'
+  - name: Carasuchi
+    population: '1,435'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/carasuchi.html'
+  - name: Daine I
+    population: '1,809'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/daine-i.html'
+  - name: Daine II
+    population: '2,326'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/daine-ii.html'
+  - name: Guyam Malaki
+    population: '2,087'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/guyam-malaki.html'
+  - name: Guyam Munti
+    population: '749'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/guyam-munti.html'
+  - name: Harasan
+    population: '1,101'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/harasan.html'
+  - name: Kayquit I
+    population: '1,559'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/kayquit-i.html'
+  - name: Kayquit II
+    population: '1,894'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/kayquit-ii.html'
+  - name: Kayquit III
+    population: '2,605'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/kayquit-iii.html'
+  - name: Kaytambog
+    population: '1,457'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/kaytambog.html'
+  - name: Kaytapos
+    population: '1,558'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/kaytapos.html'
+  - name: Limbon
+    population: '600'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/limbon.html'
+  - name: Lumampong Balagbag
+    population: '1,274'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/lumampong-balagbag.html'
+  - name: Lumampong Halayhay
+    population: '1,433'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/lumampong-halayhay.html'
+  - name: Mahabangkahoy Cerca
+    population: '1,925'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/mahabangkahoy-cerca.html'
+  - name: Mahabangkahoy Lejos
+    population: '1,210'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/mahabangkahoy-lejos.html'
+  - name: Mataas na Lupa
+    population: '3,468'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/mataas-na-lupa.html'
+  - name: Pulo
+    population: '1,053'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/pulo.html'
+  - name: Tambo Balagbag
+    population: '765'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/tambo-balagbag.html'
+  - name: Tambo Ilaya
+    population: '970'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/tambo-ilaya.html'
+  - name: Tambo Kulit
+    population: '1,518'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/tambo-kulit.html'
+  - name: Tambo Malaki
+    population: '1,906'
+    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang/tambo-malaki.html'

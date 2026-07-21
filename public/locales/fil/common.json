@@ -1,0 +1,235 @@
+{
+  "site_name": "BetterSanPedro.ph",
+  "site_description": "Isang civic portal ng komunidad para sa San Pedro, Laguna",
+  "hero": {
+    "title": "Maligayang pagdating sa BetterSanPedro.ph",
+    "subtitle": "Isang civic portal ng komunidad para mahanap ang impormasyon at serbisyo ng San Pedro, Laguna.",
+    "welcome": "MALIGAYANG PAGDATING SA",
+    "browseServices": "Tingnan ang mga Serbisyo",
+    "contactUs": "Makipag-ugnayan",
+    "findService": "Maghanap ng Serbisyo",
+    "searchPlaceholder": "Maghanap ng serbisyo...",
+    "popular": "Mga Sikat na Serbisyo",
+    "nationalId": "National ID",
+    "birthCertificate": "Sertipiko ng Kapanganakan",
+    "businessRegistration": "Rehistro ng Negosyo"
+  },
+  "hotlines": {
+    "police": "Himpilan ng Pulisya",
+    "hospital": "Tanggapan ng Kalusugan",
+    "fire": "Himpilan ng Bombero",
+    "mdrrmo": "MDRRMO"
+  },
+  "emergencyHotlines": {
+    "title": "Mga Emergency Hotline ng San Pedro",
+    "mdrrmo": {
+      "name": "MDRRMO",
+      "numbers": ["0961-992-1998", "0952-652-9265", "046-433-9220"]
+    },
+    "fire": {
+      "name": "Himpilan ng Bombero",
+      "numbers": ["046-415-1217", "0915-603-4245"]
+    },
+    "police": {
+      "name": "Himpilan ng Pulisya",
+      "numbers": ["0949-184-9145", "0915-913-7693", "0998-598-5603"]
+    },
+    "health": {
+      "name": "Tanggapan ng Kalusugan",
+      "numbers": ["046-840-1705", "0977-766-6707"]
+    }
+  },
+  "services": {
+    "title": "Mga Serbisyo at Impormasyon",
+    "governmentServices": "Mga Serbisyong Pambayan",
+    "description": "I-access ang opisyal na serbisyo ng pamahalaan nang mabilis at madali. Hanapin ang kailangan mo para sa pagkamamamayan, negosyo, edukasyon, at iba pa.",
+    "viewAll": "Tingnan ang Lahat ng Serbisyo",
+    "viewAllCategory": "Tingnan Lahat",
+    "categories": {
+      "health-services": { "name": "Mga Serbisyong Pangkalusugan" },
+      "education": { "name": "Edukasyon" },
+      "business": { "name": "Negosyo at Kabuhayan" },
+      "social-welfare": { "name": "Kagalingang Panlipunan" },
+      "agriculture-fisheries": { "name": "Agrikultura at Pangisdaan" },
+      "infrastructure-public-works": {
+        "name": "Imprastraktura at Gawaing Bayan"
+      },
+      "garbage-waste-disposal": { "name": "Basura at Pagtatapon" },
+      "environment": { "name": "Kalikasan" },
+      "housing-land-use": { "name": "Pabahay at Paggamit ng Lupa" },
+      "disaster-preparedness": { "name": "Kahandaan sa Sakuna" }
+    }
+  },
+  "governmentActivity": {
+    "title": "Aktibidad ng Pamahalaan",
+    "description": "Manatiling updated sa pinakabagong mga aktibidad at anunsyo ng pamahalaan."
+  },
+  "stats": {
+    "title": "San Pedro sa Isang Tingin",
+    "viewProfile": "Tingnan ang Profile ng Lungsod",
+    "population": {
+      "label": "Mga Residente",
+      "desc": "Populasyon sa 2024 POPCEN"
+    },
+    "barangays": {
+      "label": "Mga Barangay",
+      "desc": "Mga administratibong nayon"
+    },
+    "classification": {
+      "label": "1st Class Component City",
+      "desc": "Klasipikasyon ng kita"
+    },
+    "area": {
+      "label": "km²",
+      "desc": "Taon ng opisyal na datos"
+    }
+  },
+  "weatherMap": {
+    "title": "Panahon at Lokasyon",
+    "location": "San Pedro, Laguna",
+    "clear": "Maliwanag na langit",
+    "partlyCloudy": "Bahagyang maulap",
+    "foggy": "Makulimlim",
+    "rainy": "Maulan",
+    "showers": "Ulan-ulan",
+    "thunderstorm": "Bagyo",
+    "defaultCondition": "Kinukuha ang datos ng panahon...",
+    "wind": "km/h hangin",
+    "climate": "Tropikong klima",
+    "elevation": "299.5m taas",
+    "loading": "Kinukuha ang datos ng panahon...",
+    "mapTitle": "Mapa ng San Pedro, Laguna"
+  },
+  "history": {
+    "title": "Kasaysayan ng Indang",
+    "charteredYear": "Itinatag ang Don Severino Agricultural College",
+    "charteredDesc": "Ang Cavite State University (CvSU), ang pinakamalaking state university sa Cavite, ay may pangunahing kampus sa Indang — isang pundasyon ng pagkakakilanlan ng munisipyo bilang sentro ng agrikultura at edukasyon.",
+    "elevationLabel": "299.5m Taas",
+    "elevationDesc": "Ang Indang ay nasa 299.5 metro ang taas mula sa antas ng dagat sa koordinasyon na 14°12'H, 120°53'S, na nagbibigay ng mas malamig na klima at maayos na lupain para sa agrikultura.",
+    "events": {
+      "precolonial": {
+        "year": "Panahon Bago ang Kolonyalismo",
+        "title": "Mga Unang Pamayanan",
+        "text": "Ang lugar na ngayon ay kilala bilang Indang ay tahanan ng mga unang pamayanan ng Tagalog na abala sa pagsasaka at kalakalan. Ang mga matatabang kapatagan nito ay perpekto para sa permanenteng paninirahan."
+      },
+      "spanish": {
+        "year": "Panahon ng Espanyol",
+        "title": "Pagtatag ng Parokya",
+        "text": "Sa ilalim ng pamamahalang Espanyol, ang Indang ay inayos bilang isang parokya. Ang Simbahan ni San Gregorio ang naging espirituwal at sibikong sentro ng komunidad."
+      },
+      "revolution": {
+        "year": "1896–1898",
+        "title": "Labanan ng Indang",
+        "text": "Ang Indang ay naging aktibong tagpuan ng Himagsikan ng Pilipinas. Ang Labanan ng Indang noong 1897 ay isang mahalagang pakikipag-ugnayan sa pagitan ng mga pwersa ng Katipunan at ng mga tropang Espanyol sa Cavite."
+      },
+      "american": {
+        "year": "1900s",
+        "title": "Pagtatatag ng Munisipyo",
+        "text": "Sa ilalim ng pamamahalang Amerikano, ang Indang ay pormal na itinayo bilang isang munisipyo sa lalawigan ng Cavite, na nagtatag ng lokal na istruktura ng pamahalaan."
+      },
+      "cvsu": {
+        "year": "1906",
+        "title": "Don Severino Agricultural College",
+        "text": "Itinatag ang Don Severino Agricultural College noong 1906, na kalaunan ay pinalitan ng pangalan bilang Cavite State University (CvSU) — ngayon ang pinakamalaking state university sa Cavite na may pangunahing kampus sa Indang."
+      },
+      "republic": {
+        "year": "Matapos ang 1946",
+        "title": "Paglago at Pag-unlad",
+        "text": "Matapos ang kalayaan ng Pilipinas, ang Indang ay lumago bilang sentro ng agrikultura at edukasyon. Ang 36 na barangay nito sa loob ng 74.90 km² ay patuloy na lumago kasabay ng pamayanan ng Cavite State University (CvSU)."
+      },
+      "present": {
+        "year": "Kasalukuyan",
+        "title": "Modernong Indang",
+        "text": "Tahanan ng 68,699 na residente (senso ng 2020), ang Indang ay isang 3rd class na munisipyo na kilala sa agrikultura, edukasyon, at lumalaking sektor ng turismo."
+      }
+    }
+  },
+  "leadership": {
+    "title": "Pamunuan ng Munisipyo",
+    "cityMayor": "Alkalde ng Munisipyo",
+    "cityViceMayor": "Bise-Alkalde ng Munisipyo",
+    "electedMayor": "Inihalal na Alkalde",
+    "electedViceMayor": "Inihalal na Bise-Alkalde",
+    "viewAll": "Tingnan ang Lahat ng Opisyal",
+    "viewProfile": "Tingnan ang Profile"
+  },
+  "contact": {
+    "title": "Makipag-ugnayan",
+    "phone": "Telepono",
+    "phoneHours": "Opisyal na trunkline ng City Hall",
+    "email": "Email",
+    "emailResponse": "Public Affairs and Information Office",
+    "address": "Address",
+    "addressLine1": "New City Hall Building, Brgy. Poblacion",
+    "addressLine2": "Lungsod ng San Pedro, Laguna",
+    "viewAll": "Tingnan ang Lahat ng Departamento"
+  },
+  "weather": {
+    "title": "Mga Update sa Panahon"
+  },
+  "forex": {
+    "title": "Mga Palitan ng Pera"
+  },
+  "news": {
+    "title": "Pinakabagong Balita at Mga Update"
+  },
+  "footer": {
+    "copyright": "© 2026 BetterSanPedro.ph · CC0 1.0 Universal",
+    "about": "Tungkol sa Portal",
+    "sitemap": "Sitemap",
+    "accessibility": "Aksesibilidad",
+    "discord": "Community Discord",
+    "contactUs": "Makipag-ugnayan",
+    "officialWebsite": "Opisyal na Website ng Lungsod ng San Pedro",
+    "openData": "Open Data",
+    "foi": "Kalayaan sa Impormasyon (FOI)",
+    "facebook": "Mga link ng komunidad",
+    "sangguniangBayan": "Sangguniang Panlungsod",
+    "dilgDisclosure": "DILG Full Disclosure",
+    "dtiCmci": "DTI CMCI",
+    "blgf": "BLGF",
+    "costTitle": "Gastos para sa mga Tao ng San Pedro",
+    "volunteer": "Basahin ang Better LGU guide",
+    "contribute": "Beripikahin ang opisyal na impormasyon",
+    "notOfficial": "Hindi opisyal na website ng gobyerno.",
+    "builtByCommunity": "Gawa ng komunidad",
+    "quickLinks": "Mga Quick Link",
+    "resources": "Mga Mapagkukunan"
+  },
+  "navbar": {
+    "government": "Pamahalaan",
+    "services": "Mga Serbisyo",
+    "hotlines": "Mga Hotline",
+    "holidays": "Mga Pista Opisyal",
+    "home": "Tahanan",
+    "statistics": "Estadistika",
+    "legislative": "Lehislatura",
+    "transparency": "Transparansya",
+    "contact": "Makipag-ugnayan",
+    "tourism": "Turismo",
+    "departments": "Mga Kagawaran at Opisyal",
+    "officials": "Direktoryo ng Lokal na Opisyal",
+    "fullDisclosure": "Patakaran sa Ganap na Pagbubunyag (FDP)",
+    "transparencyDocs": "Mga Dokumento ng Transparansya",
+    "reportsStats": "Mga Ulat at Estadistika",
+    "budget": "Taunang Badyet",
+    "foi": "Kalayaan sa Impormasyon (FOI)",
+    "profile": "Profile ng Munisipyo",
+    "dtiProfile": "DTI CMCI Profile",
+    "barangayData": "Datos ng Barangay",
+    "openData": "Open Data PH"
+  },
+  "joinUs": {
+    "stripTitle": "Sumali sa #CivicTech Revolution",
+    "stripSubtitle": "Tulungan kaming buuin ang kinabukasan ng Pilipinas sa pamamagitan ng teknolohiya",
+    "joinNow": "Sumali Na",
+    "discord": "Discord",
+    "bannerTitle": "Sumali sa #CivicTech Revolution",
+    "bannerSubtitle": "Tulungan kaming buuin ang kinabukasan ng pamamahala sa pamamagitan ng teknolohiya.",
+    "bannerHighlight": "Pinamumunuan ng mga boluntaryo. Open source. Pinapatakbo ng komunidad.",
+    "joinMovement": "Sumali sa Kilusan",
+    "or": "o",
+    "joinDiscord": "Sumali sa Discord",
+    "features": "Imprastraktura • Mentorship • Komunidad • Espasyo sa Opisina"
+  }
+}

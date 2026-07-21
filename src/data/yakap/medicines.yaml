@@ -1,0 +1,320 @@
+- generic: Amlodipine Besilate
+  strength: 5mg Tablet
+  category: Hypertension / High Blood
+  use: Pababa ng altapresyon at pampaluwag ng ugat sa puso.
+- generic: Amlodipine Besilate
+  strength: 10mg Tablet
+  category: Hypertension / High Blood
+  use: Pababa ng altapresyon at pampaluwag ng ugat sa puso.
+- generic: Losartan Potassium
+  strength: 50mg Tablet
+  category: Hypertension / High Blood
+  use: Pinipigilan ang pag-igting ng mga ugat para bumaba ang presyon.
+- generic: Losartan Potassium
+  strength: 100mg Tablet
+  category: Hypertension / High Blood
+  use: Pinipigilan ang pag-igting ng mga ugat para bumaba ang presyon.
+- generic: Metoprolol Tartrate
+  strength: 50mg Tablet
+  category: Hypertension / High Blood
+  use: Pampabagal ng mabilis na tibok ng puso at pampababa ng presyon.
+- generic: Metoprolol Tartrate
+  strength: 100mg Tablet
+  category: Hypertension / High Blood
+  use: Pampabagal ng mabilis na tibok ng puso at pampababa ng presyon.
+- generic: Enalapril Maleate
+  strength: 5mg Tablet
+  category: Hypertension / High Blood
+  use: ACE Inhibitor na pampababa ng presyon at proteksyon sa puso.
+- generic: Enalapril Maleate
+  strength: 20mg Tablet
+  category: Hypertension / High Blood
+  use: ACE Inhibitor na pampababa ng presyon at proteksyon sa puso.
+- generic: Hydrochlorothiazide
+  strength: 12.5mg Tablet
+  category: Hypertension / High Blood
+  use: Diuretic o pampaihi para bawasan ang labis na likido sa katawan.
+- generic: Hydrochlorothiazide
+  strength: 25mg Tablet
+  category: Hypertension / High Blood
+  use: Diuretic o pampaihi para bawasan ang labis na likido sa katawan.
+- generic: Clonidine Hydrochloride
+  strength: 75mcg Tablet
+  category: Hypertension / High Blood
+  use: Mabilisang pampababa ng presyon sa oras ng hypertensive crisis.
+- generic: Clonidine Hydrochloride
+  strength: 150mcg Tablet
+  category: Hypertension / High Blood
+  use: Mabilisang pampababa ng presyon sa oras ng hypertensive crisis.
+- generic: Carvedilol
+  strength: 6.25mg Tablet
+  category: Hypertension / High Blood
+  use: Beta-blocker para sa high blood at mahinang puso (heart failure).
+- generic: Carvedilol
+  strength: 25mg Tablet
+  category: Hypertension / High Blood
+  use: Beta-blocker para sa high blood at mahinang puso (heart failure).
+- generic: Metformin Hydrochloride
+  strength: 500mg Tablet
+  category: Diabetes / High Sugar
+  use: Pangunahing gamot para sa Type 2 Diabetes; pinapababa ang paggawa ng sugar.
+- generic: Metformin Hydrochloride
+  strength: 850mg Tablet
+  category: Diabetes / High Sugar
+  use: Pangunahing gamot para sa Type 2 Diabetes; pinapababa ang paggawa ng sugar.
+- generic: Metformin Hydrochloride
+  strength: 1000mg Tablet
+  category: Diabetes / High Sugar
+  use: Pangunahing gamot para sa Type 2 Diabetes; pinapababa ang paggawa ng sugar.
+- generic: Gliclazide
+  strength: 30mg Modified Release Tablet
+  category: Diabetes / High Sugar
+  use: Pampasigla ng pancreas para gumawa ng mas maraming insulin.
+- generic: Gliclazide
+  strength: 60mg Modified Release Tablet
+  category: Diabetes / High Sugar
+  use: Pampasigla ng pancreas para gumawa ng mas maraming insulin.
+- generic: Gliclazide
+  strength: 80mg Tablet
+  category: Diabetes / High Sugar
+  use: Pampasigla ng pancreas para gumawa ng mas maraming insulin.
+- generic: Glibenclamide
+  strength: 5mg Tablet
+  category: Diabetes / High Sugar
+  use: Sulfonylurea na gamot sa diabetes upang kontrolin ang glucose sa dugo.
+- generic: Simvastatin
+  strength: 20mg Tablet
+  category: High Cholesterol
+  use: Pinapababa ang bad cholesterol (LDL) at triglycerides sa dugo.
+- generic: Simvastatin
+  strength: 40mg Tablet
+  category: High Cholesterol
+  use: Pinapababa ang bad cholesterol (LDL) at triglycerides sa dugo.
+- generic: Atorvastatin Calcium
+  strength: 20mg Tablet
+  category: High Cholesterol
+  use: Mabisang statin para maiwasan ang atake sa puso at stroke sa pamamagitan ng pagbaba ng cholesterol.
+- generic: Atorvastatin Calcium
+  strength: 40mg Tablet
+  category: High Cholesterol
+  use: Mabisang statin para maiwasan ang atake sa puso at stroke sa pamamagitan ng pagbaba ng cholesterol.
+- generic: Salbutamol Sulfate
+  strength: 100mcg Inhaler
+  category: Asthma & Cough
+  use: Mabilisang pampaluwag ng airways kapag may hika o sumisikip ang dibdib.
+- generic: Salbutamol Sulfate
+  strength: 2.5mg/2.5ml Nebule
+  category: Asthma & Cough
+  use: Solusyon para sa nebulizer upang mabilis na maibsan ang severe asthma attack.
+- generic: Salbutamol Sulfate
+  strength: 2mg Tablet
+  category: Asthma & Cough
+  use: Pangmatagalang suporta sa hika at pampaluwag ng bronchus.
+- generic: Salbutamol Sulfate
+  strength: 2mg/5ml Syrup
+  category: Asthma & Cough
+  use: Pampaluwag ng hika na angkop para sa mga bata.
+- generic: Fluticasone Propionate + Salmeterol
+  strength: 125mcg/25mcg Inhaler
+  category: Asthma & Cough
+  use: Pang-araw-araw na preventive inhaler para maiwasan ang pagsumpong ng hika.
+- generic: Fluticasone Propionate + Salmeterol
+  strength: 250mcg/25mcg Inhaler
+  category: Asthma & Cough
+  use: Pang-araw-araw na preventive inhaler para maiwasan ang pagsumpong ng hika.
+- generic: Prednisone
+  strength: 5mg Tablet
+  category: Asthma & Cough
+  use: Corticosteroid na pambawas ng pamamaga sa malalang hika at allergy.
+- generic: Prednisone
+  strength: 10mg Tablet
+  category: Asthma & Cough
+  use: Corticosteroid na pambawas ng pamamaga sa malalang hika at allergy.
+- generic: Prednisone
+  strength: 20mg Tablet
+  category: Asthma & Cough
+  use: Corticosteroid na pambawas ng pamamaga sa malalang hika at allergy.
+- generic: Carbocisteine
+  strength: 500mg Capsule
+  category: Asthma & Cough
+  use: Mucolytic na pampalabnaw ng makapal at madikit na plema para madaling mailabas.
+- generic: Carbocisteine
+  strength: 250mg/5ml Syrup
+  category: Asthma & Cough
+  use: Pampalabnaw ng plema na angkop para sa mga bata.
+- generic: Ambroxol Hydrochloride
+  strength: 30mg Tablet
+  category: Asthma & Cough
+  use: Pampalabnaw at pampalabas ng plema sa ubo.
+- generic: Ambroxol Hydrochloride
+  strength: 15mg/5ml Syrup
+  category: Asthma & Cough
+  use: Pampalabnaw ng ubo at plema para sa mga bata.
+- generic: Amoxicillin Trihydrate
+  strength: 250mg Capsule
+  category: Antibiotics
+  use: Lumalaban sa mga bacterial infection tulad ng sa lalamunan, tenga, at balat.
+- generic: Amoxicillin Trihydrate
+  strength: 500mg Capsule
+  category: Antibiotics
+  use: Lumalaban sa mga bacterial infection tulad ng sa lalamunan, tenga, at balat.
+- generic: Amoxicillin Trihydrate
+  strength: 125mg/5ml Suspension
+  category: Antibiotics
+  use: Bacterial antibiotic na likido para sa impeksyon ng mga bata.
+- generic: Co-Amoxiclav (Amoxicillin + Clavulanate)
+  strength: 625mg Tablet
+  category: Antibiotics
+  use: Mas pinalakas na antibiotic para sa mas matinding impeksyon sa baga, balat, o ihi.
+- generic: Co-Amoxiclav (Amoxicillin + Clavulanate)
+  strength: 312.5mg/5ml Suspension
+  category: Antibiotics
+  use: Pinalakas na antibiotic suspension para sa mga bata.
+- generic: Ciprofloxacin Hydrochloride
+  strength: 500mg Tablet
+  category: Antibiotics
+  use: Mabisang antibiotic para sa impeksyon sa ihi (UTI) at gastrointestinal infections.
+- generic: Clarithromycin
+  strength: 500mg Tablet
+  category: Antibiotics
+  use: Ginagamit sa respiratory tract infections at sa mga taong allergic sa penicillin.
+- generic: Nitrofurantoin
+  strength: 100mg Capsule
+  category: Antibiotics
+  use: Espesyal na antibiotic na nakatutok sa pagsugpo ng urinary tract infection (UTI).
+- generic: Cotrimoxazole (Sulfamethoxazole + Trimethoprim)
+  strength: 800mg/160mg Tablet
+  category: Antibiotics
+  use: Kumbinasyong antibiotic para sa respiratory, urinary, at bowel infections.
+- generic: Doxycycline Hyclate
+  strength: 100mg Capsule
+  category: Antibiotics
+  use: Gamot sa iba't ibang bacterial infection kabilang ang leptospirosis at respiratory infections.
+- generic: Erythromycin
+  strength: 500mg Tablet
+  category: Antibiotics
+  use: Macrolide antibiotic para sa mga impeksyon sa balat, baga, at soft tissues.
+- generic: Azithromycin Dihydrate
+  strength: 500mg Tablet
+  category: Antibiotics
+  use: Mabilisang 3-araw o 5-araw na antibiotic para sa pulmonya, sinus, at lalamunan.
+- generic: Paracetamol
+  strength: 500mg Tablet
+  category: Fever & Pain
+  use: Ligtas at karaniwang gamot para sa lagnat, sakit ng ulo, at iba pang pananakit.
+- generic: Paracetamol
+  strength: 125mg/5ml Syrup
+  category: Fever & Pain
+  use: Pababa ng lagnat at pawi ng sakit para sa sanggol at bata.
+- generic: Paracetamol
+  strength: 250mg/5ml Syrup
+  category: Fever & Pain
+  use: Pababa ng lagnat at pawi ng sakit para sa mga mas nakatatandang bata.
+- generic: Ibuprofen
+  strength: 200mg Tablet
+  category: Fever & Pain
+  use: Non-steroidal anti-inflammatory drug (NSAID) para sa sakit at pamamaga.
+- generic: Ibuprofen
+  strength: 400mg Tablet
+  category: Fever & Pain
+  use: NSAID para sa pananakit ng kasu-kasuan, ngipin, at dysmenorrhea.
+- generic: Ibuprofen
+  strength: 100mg/5ml Suspension
+  category: Fever & Pain
+  use: Pampababa ng lagnat at pamamaga para sa mga bata.
+- generic: Mefenamic Acid
+  strength: 250mg Capsule
+  category: Fever & Pain
+  use: Mabilisang pawi ng sakit sa ngipin, arthritis, at pananakit ng puson.
+- generic: Mefenamic Acid
+  strength: 500mg Capsule
+  category: Fever & Pain
+  use: Mabilisang pawi ng sakit sa ngipin, arthritis, at pananakit ng puson.
+- generic: Cetirizine Hydrochloride
+  strength: 10mg Tablet
+  category: Allergies & Antihistamines
+  use: Non-drowsy na antihistamine para sa sipon, kati-kati, at allergic rhinitis.
+- generic: Cetirizine Hydrochloride
+  strength: 5mg/5ml Syrup
+  category: Allergies & Antihistamines
+  use: Gamot sa allergy na likido para sa mga bata.
+- generic: Chlorpheniramine Maleate
+  strength: 4mg Tablet
+  category: Allergies & Antihistamines
+  use: Klasikong antihistamine para sa mabilisang ginhawa sa pangangati at sipon (nakakaantok).
+- generic: Loratadine
+  strength: 10mg Tablet
+  category: Allergies & Antihistamines
+  use: Pang-24 oras na allergy relief na hindi nakakaantok.
+- generic: Aspirin (Low Dose)
+  strength: 80mg Tablet
+  category: Heart & Stroke Support
+  use: Pampalabnaw ng dugo upang maiwasan ang pamumuo ng dugo at atake sa puso o stroke.
+- generic: Aspirin
+  strength: 100mg Enteric Coated Tablet
+  category: Heart & Stroke Support
+  use: Proteksyon laban sa stroke at atake sa puso na may coating para sa sikmura.
+- generic: Clopidogrel Bisulfate
+  strength: 75mg Tablet
+  category: Heart & Stroke Support
+  use: Antiplatelet na nagpapanatiling maayos ang daloy ng dugo pagkatapos ma-stroke o ma-angioplasty.
+- generic: Isosorbide Mononitrate
+  strength: 30mg Modified Release Tablet
+  category: Heart & Stroke Support
+  use: Preventive na gamot laban sa pananakit ng dibdib (angina).
+- generic: Oral Rehydration Salts (ORS)
+  strength: 20.5g Sachet
+  category: Dehydration
+  use: Pampalit ng nawalang tubig at electrolytes kapag nagtatae o nagsusuka.
+- generic: Omeprazole
+  strength: 20mg Capsule
+  category: Gastrointestinal / Tiyan
+  use: Proton pump inhibitor na nagpapababa ng asido sa sikmura para sa hyperacidity at ulcer.
+- generic: Omeprazole
+  strength: 40mg Capsule
+  category: Gastrointestinal / Tiyan
+  use: Proton pump inhibitor na nagpapababa ng asido sa sikmura para sa hyperacidity at ulcer.
+- generic: Famotidine
+  strength: 20mg Tablet
+  category: Gastrointestinal / Tiyan
+  use: H2-blocker na nagbabawas ng acid sa sikmura at lunas sa heartburn.
+- generic: Dicycloverine Hydrochloride
+  strength: 10mg Tablet
+  category: Gastrointestinal / Tiyan
+  use: Antispasmodic para pawiin ang pananakit at paghilab ng tiyan.
+- generic: Dicycloverine Hydrochloride
+  strength: 5mg/5ml Syrup
+  category: Gastrointestinal / Tiyan
+  use: Pampawi ng paghilab ng tiyan na angkop sa bata.
+- generic: Domperidone
+  strength: 10mg Tablet
+  category: Gastrointestinal / Tiyan
+  use: Gamot laban sa pagduduwal, pagsusuka, at kabag.
+- generic: Metoclopramide Hydrochloride
+  strength: 10mg Tablet
+  category: Gastrointestinal / Tiyan
+  use: Pampabilis ng pagtunaw ng pagkain para maibsan ang pagduduwal at pagsusuka.
+- generic: Multivitamins (Adult)
+  strength: Capsule
+  category: Vitamins & Minerals
+  use: Pang-araw-araw na bitamina upang palakasin ang resistensya laban sa sakit.
+- generic: Ferrous Sulfate + Folic Acid
+  strength: Tablet
+  category: Vitamins & Minerals
+  use: Suplemento sa dugo para iwasan o gamutin ang anemia, lalo na sa mga buntis.
+- generic: Calcium Carbonate
+  strength: 500mg Tablet
+  category: Vitamins & Minerals
+  use: Suplemento para sa malusog na buto at ngipin.
+- generic: Zinc Sulfate
+  strength: 55mg/5ml Syrup
+  category: Vitamins & Minerals
+  use: Mahalagang mineral para sa paggaling ng bata mula sa diarrhea at pampalakas ng resistensya.
+- generic: Levothyroxine Sodium
+  strength: 50mcg Tablet
+  category: Thyroid Support
+  use: Hormone replacement para sa mga may hypothyroid o kulang ang thyroid hormone.
+- generic: Levothyroxine Sodium
+  strength: 100mcg Tablet
+  category: Thyroid Support
+  use: Hormone replacement para sa mga may hypothyroid o kulang ang thyroid hormone.

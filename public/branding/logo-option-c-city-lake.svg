@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">BetterSanPedro.ph logo draft C</title>
+  <desc id="desc">A compact city and lake emblem with a rising sun beside a stacked BetterSanPedro.ph wordmark.</desc>
+  <g transform="translate(26 26)">
+    <path d="M137 3 265 78v157c0 15-12 27-27 27H36c-15 0-27-12-27-27V78z" fill="#003087"/>
+    <path d="M137 3 265 78H9z" fill="#f4c430"/>
+    <circle cx="137" cy="74" r="32" fill="#fff" opacity=".98"/>
+    <path d="M18 168c41-24 77-24 119 0 42 24 79 24 119-1v46H18z" fill="#0ea5a4"/>
+    <path d="M18 207c41-21 77-20 119 2 42 21 79 20 119-4v30H18z" fill="#2563eb"/>
+    <g fill="#fff" opacity=".95">
+      <rect x="67" y="102" width="22" height="45" rx="2"/>
+      <rect x="100" y="91" width="27" height="56" rx="2"/>
+      <rect x="138" y="104" width="22" height="43" rx="2"/>
+      <rect x="171" y="84" width="28" height="63" rx="2"/>
+    </g>
+    <path d="M52 249h170" stroke="#f4c430" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(350 64)" font-family="Inter, Arial, sans-serif">
+    <text x="0" y="92" font-size="106" font-weight="800" letter-spacing="-6" fill="#0b1f3a">Better</text>
+    <text x="0" y="190" font-size="90" font-weight="800" letter-spacing="-4" fill="#0b5e75">SanPedro</text>
+    <text x="625" y="190" font-size="42" font-weight="700" fill="#f4c430">.ph</text>
+  </g>
+</svg>

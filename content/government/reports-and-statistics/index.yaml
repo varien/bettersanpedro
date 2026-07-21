@@ -1,0 +1,6 @@
+# Reports & Statistics Pages
+# Lists all pages available under the Reports & Statistics government section.
+
+pages:
+  - title: "Reports & Statistics"
+    description: "Explore comprehensive reports and statistics on various aspects of the city, including crime rates, traffic data, public health, and more. Stay informed with up-to-date information to better understand our community."

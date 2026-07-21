@@ -1,0 +1,36 @@
+name: CI Build Verification
+
+on:
+  push:
+    branches:
+      - main
+      - feat/*
+      - fix/*
+  pull_request:
+    branches:
+      - main
+
+# Minimal GITHUB_TOKEN permissions for all jobs (read-only checkout).
+permissions:
+  contents: read
+
+jobs:
+  build-and-verify:
+    name: Build Verification Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Build Check (Compile Verification)
+        run: npm run build
